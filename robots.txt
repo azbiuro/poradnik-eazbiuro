@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://poradnik.eazbiuro.pl/sitemap.xml
