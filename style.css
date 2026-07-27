@@ -60,3 +60,42 @@
     grid-template-columns:1fr;
   }
 }
+
+
+/* Wymuszenie czcionki Open Sans na całym portalu */
+html,
+body,
+header,
+main,
+footer,
+section,
+article,
+aside,
+nav,
+div,
+p,
+span,
+a,
+ul,
+ol,
+li,
+table,
+thead,
+tbody,
+tr,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+textarea,
+select,
+summary,
+details {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
