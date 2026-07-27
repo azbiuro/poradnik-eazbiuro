@@ -1,15 +1,18 @@
-PAKIET 01 — OFERTA LOKALNA / PROFESJONALNA CHEMIA
+PAKIET POPRAWIONY – DOCELOWA STRUKTURA
 
-Zawartość:
-- 1 strona główna Oferta lokalna
-- 1 strona działu Profesjonalna chemia
-- 16 stron województw
-- 50 stron miast
-- zaktualizowany sitemap.xml
+Lokalne produkty
+├── Województwa
+│   └── [województwo]
+│       └── Profesjonalna chemia
+└── Miasta
+    └── [miasto]
+        └── Profesjonalna chemia
 
-Łącznie: 68 stron HTML + mapa witryny.
-
-Wgraj ZAWARTOŚĆ paczki do katalogu głównego repozytorium.
-Nie wgrywaj ZIP-a jako zwykłego pliku do GitHuba. Najpierw rozpakuj paczkę.
-
-Paczka NIE zawiera assets/style.css, więc nie nadpisze działającej czcionki Open Sans ani obecnego układu strony.
+WAŻNE:
+1. Rozpakuj każdy ZIP na komputerze.
+2. Wgraj zawartość do głównego katalogu repozytorium, zachowując foldery.
+3. Nie wgrywaj ZIP-a jako pliku.
+4. Pakiety nie zawierają assets/style.css, więc nie zmienią Open Sans.
+5. Pakiet A zawiera stronę główną, przekierowania, sitemapę i województwa.
+6. Pakiety B i C zawierają po 25 miast.
+7. Stare adresy /oferta-lokalna/... są przekierowane przez plik _redirects.
