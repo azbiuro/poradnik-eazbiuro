@@ -1,0 +1,10 @@
+PAKIET 01 PO AUDYCIE SEO 10/10
+
+1. Rozpakuj każdy ZIP na komputerze.
+2. Wgraj zawartość do głównego katalogu repozytorium.
+3. Nie wgrywaj plików ZIP do GitHuba.
+4. Pakiet nie zawiera assets/style.css i nie nadpisze Open Sans.
+5. Wgraj kolejno pakiety A, B i C.
+6. Strony miast i województw będące tylko nawigacją mają noindex,follow do czasu dodania co najmniej 3 działów.
+7. Do sitemap.xml trafiły wyłącznie strony indeksowane i kanoniczne.
+8. Plik _redirects zachowuje przekierowania ze starej struktury /oferta-lokalna/.
