@@ -1,17 +1,17 @@
-PAKIET 03 – ARTYKUŁY CHEMICZNE
+PAKIET 04 – ŚRODKI CZYSTOŚCI
 
-Pakiet rozszerza dział „Lokalne produkty” o artykuły chemiczne dla 16 województw i 50 miast.
-Każda strona ma logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu oraz pełną treść poradnikową.
+Pakiet rozszerza dział „Lokalne produkty” o środki czystości dla 16 województw i 50 miast.
+Każda strona ma logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu, linki do działów i marek oraz pełną treść poradnikową.
 
 STAŁA STRUKTURA PACZKI:
-Po rozpakowaniu otwórz folder PAKIET_03... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
+Po rozpakowaniu otwórz folder PAKIET_04... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
 
 SPOSÓB WGRANIA:
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_03...
+2. Otwórz folder PAKIET_04...
 3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne foldery i pliki.
-4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_03... jako dodatkowego poziomu.
+4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_04... jako dodatkowego poziomu.
 5. Zgódź się na zastąpienie istniejących plików index.html.
 6. Po każdej części poczekaj na zakończenie wdrożenia Cloudflare Pages.
 
-Wgraj jako ostatnią. Zawiera pozostałe miasta i końcową sitemapę.
+Wgraj jako pierwszą. Zawiera 16 zaktualizowanych stron województw, 16 nowych poradników, CSS i logo.
