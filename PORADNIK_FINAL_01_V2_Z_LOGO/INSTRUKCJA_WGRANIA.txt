@@ -1,0 +1,21 @@
+PORADNIK A-Z BIURO – WERSJA PO PEŁNYM AUDYCIE SEO I UX
+
+WAŻNE:
+1. Nie wgrywaj plików ZIP bezpośrednio do GitHuba.
+2. Każdy ZIP najpierw rozpakuj na komputerze.
+3. Wgrywaj zawartość paczek kolejno 01–07 do głównego katalogu repozytorium.
+4. Zgódź się na zastąpienie istniejących plików.
+5. Paczka 01 zawiera nowy assets/style.css z Open Sans oraz kolory A-Z Biuro.
+6. Po każdej paczce poczekaj na zakończenie wdrożenia Cloudflare Pages.
+7. Plik sitemap.xml zawiera 135 adresów index,follow. 132 strony lokalne pozostają celowo noindex,follow.
+
+KOLEJNOŚĆ:
+01 – pliki główne, CSS i katalogi lokalne
+02 – artykuły biurowe i papier
+03 – tonery i chemia profesjonalna
+04 – artykuły higieniczne i HoReCa
+05 – 16 województw
+06 – miasta 1–25
+07 – miasta 26–50
+
+Nie usuwaj pliku _redirects, robots.txt ani sitemap.xml.
