@@ -1,10 +1,21 @@
-PAKIET 01 PO AUDYCIE SEO 10/10
+PORADNIK A-Z BIURO – WERSJA PO PEŁNYM AUDYCIE SEO I UX
 
-1. Rozpakuj każdy ZIP na komputerze.
-2. Wgraj zawartość do głównego katalogu repozytorium.
-3. Nie wgrywaj plików ZIP do GitHuba.
-4. Pakiet nie zawiera assets/style.css i nie nadpisze Open Sans.
-5. Wgraj kolejno pakiety A, B i C.
-6. Strony miast i województw będące tylko nawigacją mają noindex,follow do czasu dodania co najmniej 3 działów.
-7. Do sitemap.xml trafiły wyłącznie strony indeksowane i kanoniczne.
-8. Plik _redirects zachowuje przekierowania ze starej struktury /oferta-lokalna/.
+WAŻNE:
+1. Nie wgrywaj plików ZIP bezpośrednio do GitHuba.
+2. Każdy ZIP najpierw rozpakuj na komputerze.
+3. Wgrywaj zawartość paczek kolejno 01–07 do głównego katalogu repozytorium.
+4. Zgódź się na zastąpienie istniejących plików.
+5. Paczka 01 zawiera nowy assets/style.css z Open Sans oraz kolory A-Z Biuro.
+6. Po każdej paczce poczekaj na zakończenie wdrożenia Cloudflare Pages.
+7. Plik sitemap.xml zawiera 135 adresów index,follow. 132 strony lokalne pozostają celowo noindex,follow.
+
+KOLEJNOŚĆ:
+01 – pliki główne, CSS i katalogi lokalne
+02 – artykuły biurowe i papier
+03 – tonery i chemia profesjonalna
+04 – artykuły higieniczne i HoReCa
+05 – 16 województw
+06 – miasta 1–25
+07 – miasta 26–50
+
+Nie usuwaj pliku _redirects, robots.txt ani sitemap.xml.
