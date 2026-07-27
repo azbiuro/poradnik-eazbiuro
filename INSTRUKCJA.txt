@@ -1,7 +1,19 @@
-INSTRUKCJA
+PAKIET 02 – ARTYKUŁY BIUROWE
 
+Ten pakiet rozszerza dział „Lokalne produkty” o artykuły biurowe dla 16 województw i 50 miast.
+Każda strona ma logo A-Z Biuro, kolory #cd0000, #105fa6 i #7b848d, przyciski do działu sklepu oraz pełną treść poradnikową.
+
+WAŻNE – STAŁA STRUKTURA PACZKI:
+Po rozpakowaniu otwórz folder PAKIET_02... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma dodatkowego katalogu „DO_WGRANIA”.
+
+SPOSÓB WGRANIA:
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder POPRAWIONE_MIASTA...
-3. W środku znajduje się folder „lokalne-produkty”.
-4. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty”.
-5. Nie wgrywaj samego ZIP-a.
+2. Otwórz folder PAKIET_02...
+3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne w paczce foldery i pliki.
+4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_02... jako dodatkowego poziomu.
+5. Zgódź się na zastąpienie istniejących plików index.html.
+6. Poczekaj na zakończenie wdrożenia Cloudflare Pages przed kolejną częścią.
+
+KOLEJNOŚĆ: Wgraj tę część jako pierwszą.
+Zawiera 16 stron województw, 16 nowych poradników „Artykuły biurowe”, zatwierdzony styl CSS i logo A-Z Biuro.
+Po wdrożeniu sprawdź przykładowo: /lokalne-produkty/wojewodztwa/slaskie/artykuly-biurowe/
