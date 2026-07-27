@@ -1,18 +1,7 @@
-PAKIET POPRAWIONY – DOCELOWA STRUKTURA
+INSTRUKCJA
 
-Lokalne produkty
-├── Województwa
-│   └── [województwo]
-│       └── Profesjonalna chemia
-└── Miasta
-    └── [miasto]
-        └── Profesjonalna chemia
-
-WAŻNE:
-1. Rozpakuj każdy ZIP na komputerze.
-2. Wgraj zawartość do głównego katalogu repozytorium, zachowując foldery.
-3. Nie wgrywaj ZIP-a jako pliku.
-4. Pakiety nie zawierają assets/style.css, więc nie zmienią Open Sans.
-5. Pakiet A zawiera stronę główną, przekierowania, sitemapę i województwa.
-6. Pakiety B i C zawierają po 25 miast.
-7. Stare adresy /oferta-lokalna/... są przekierowane przez plik _redirects.
+1. Rozpakuj ZIP na komputerze.
+2. Otwórz folder POPRAWIONE_MIASTA...
+3. W środku znajduje się folder „lokalne-produkty”.
+4. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty”.
+5. Nie wgrywaj samego ZIP-a.
