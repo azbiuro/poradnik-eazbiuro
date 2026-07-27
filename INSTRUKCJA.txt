@@ -1,0 +1,15 @@
+PAKIET 01 — OFERTA LOKALNA / PROFESJONALNA CHEMIA
+
+Zawartość:
+- 1 strona główna Oferta lokalna
+- 1 strona działu Profesjonalna chemia
+- 16 stron województw
+- 50 stron miast
+- zaktualizowany sitemap.xml
+
+Łącznie: 68 stron HTML + mapa witryny.
+
+Wgraj ZAWARTOŚĆ paczki do katalogu głównego repozytorium.
+Nie wgrywaj ZIP-a jako zwykłego pliku do GitHuba. Najpierw rozpakuj paczkę.
+
+Paczka NIE zawiera assets/style.css, więc nie nadpisze działającej czcionki Open Sans ani obecnego układu strony.
