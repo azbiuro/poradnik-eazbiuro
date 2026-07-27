@@ -6,3 +6,21 @@
 @media(max-width:620px){.container{width:min(100% - 24px,1180px)}.home-hero,.category-hero,.local-hero{padding:50px 0 42px}.home-hero h1,.category-hero h1,.local-hero h1,.directory-hero h1{font-size:2.3rem}.hero-visual{min-height:260px;grid-template-columns:1fr 1fr}.visual-main{padding:20px}.visual-main strong{font-size:3.5rem}.visual-tile{padding:18px}.visual-tile b{font-size:2rem}.section{padding:52px 0}.area-grid,.feature-grid,.article-grid,.local-choice-grid,.split-cards,.brand-links,.related-list,.sidebar{grid-template-columns:1fr}.area-card{min-height:auto}.business-panel{padding:30px 23px}.content-box{padding:25px 20px}.article-shell{padding-top:20px}.cta-panel,.shop-banner{align-items:flex-start;flex-direction:column}.location-directory{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.btn{width:100%}.btns,.top-actions{width:100%}.map-card{padding:24px 16px}.map-number{font-size:2.6rem}.location-category-card{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 @media print{.site-header,.sidebar,.footer,.btns,.top-actions,.toc{display:none!important}body{background:#fff}.article-shell{display:block}.content-box{box-shadow:none;border:0;padding:0}.container{width:100%}}
+
+/* Logo A-Z Biuro na stronie głównej */
+.brand-logo{
+  flex:0 1 auto;
+}
+.brand-logo img{
+  display:block;
+  width:auto;
+  height:52px;
+  max-width:min(250px,55vw);
+  object-fit:contain;
+}
+@media(max-width:620px){
+  .brand-logo img{
+    height:42px;
+    max-width:62vw;
+  }
+}
