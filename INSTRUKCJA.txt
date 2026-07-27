@@ -1,20 +1,20 @@
-PAKIET 06 – ARTYKUŁY BHP
+PAKIET 07 – ARTYKUŁY SZKOLNE
 
-Pakiet rozszerza dział „Lokalne produkty” o artykuły BHP dla 16 województw i 50 miast.
-Każda strona zawiera logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu, linki do różnych działów BHP oraz marek i pełną treść poradnikową.
+Pakiet rozszerza dział „Lokalne produkty” o artykuły szkolne dla 16 województw i 50 miast.
+Każda strona zawiera logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu, różne linki do działów szkolnych oraz marek i pełną treść poradnikową.
 
 ZAKRES AUDYTU:
 Każda strona została sprawdzona osobno pod kątem SEO technicznego, treści, linków wewnętrznych, logo, kolorów, przycisków, responsywności i elementów wychodzących poza ramkę na szerokości 1440 px i 390 px.
 
 STAŁA STRUKTURA PACZKI:
-Po rozpakowaniu otwórz folder PAKIET_06... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
+Po rozpakowaniu otwórz folder PAKIET_07... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
 
 SPOSÓB WGRANIA:
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_06...
+2. Otwórz folder PAKIET_07...
 3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne foldery i pliki.
-4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_06... jako dodatkowego poziomu.
+4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_07... jako dodatkowego poziomu.
 5. Zgódź się na zastąpienie istniejących plików index.html.
 6. Po każdej części poczekaj na zakończenie wdrożenia Cloudflare Pages.
 
-Wgraj jako ostatnią. Zawiera pozostałe 25 miast oraz końcową sitemapę.
+Wgraj jako pierwszą. Zawiera 16 zaktualizowanych stron województw, 16 nowych poradników, aktualny CSS i logo.
