@@ -24,3 +24,9 @@
     max-width:62vw;
   }
 }
+
+/* Ochrona długich nagłówków i przycisków przed wyjściem poza ramkę */
+.article h1,.article h2,.article h3,.sidebar-card h2,.location-category-card h2,.split-cards h3{overflow-wrap:anywhere;word-break:normal;max-width:100%}
+.btn,.brand-links a,.related-list a{max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center}
+.split-cards>*{min-width:0}.split-cards article{overflow:hidden}.brand-links li{min-width:0}
+@media(max-width:620px){.article h2{font-size:clamp(1.35rem,7vw,1.8rem)}.btn{padding-inline:14px}}
