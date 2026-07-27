@@ -1,19 +1,17 @@
-PAKIET 02 – ARTYKUŁY BIUROWE
+PAKIET 03 – ARTYKUŁY CHEMICZNE
 
-Ten pakiet rozszerza dział „Lokalne produkty” o artykuły biurowe dla 16 województw i 50 miast.
-Każda strona ma logo A-Z Biuro, kolory #cd0000, #105fa6 i #7b848d, przyciski do działu sklepu oraz pełną treść poradnikową.
+Pakiet rozszerza dział „Lokalne produkty” o artykuły chemiczne dla 16 województw i 50 miast.
+Każda strona ma logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu oraz pełną treść poradnikową.
 
-WAŻNE – STAŁA STRUKTURA PACZKI:
-Po rozpakowaniu otwórz folder PAKIET_02... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma dodatkowego katalogu „DO_WGRANIA”.
+STAŁA STRUKTURA PACZKI:
+Po rozpakowaniu otwórz folder PAKIET_03... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
 
 SPOSÓB WGRANIA:
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_02...
-3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne w paczce foldery i pliki.
-4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_02... jako dodatkowego poziomu.
+2. Otwórz folder PAKIET_03...
+3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne foldery i pliki.
+4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_03... jako dodatkowego poziomu.
 5. Zgódź się na zastąpienie istniejących plików index.html.
-6. Poczekaj na zakończenie wdrożenia Cloudflare Pages przed kolejną częścią.
+6. Po każdej części poczekaj na zakończenie wdrożenia Cloudflare Pages.
 
-KOLEJNOŚĆ: Wgraj tę część jako ostatnią.
-Zawiera zaktualizowane strony pozostałych 25 miast, 25 nowych poradników oraz końcowy plik sitemap.xml z 66 nowymi adresami.
-Po wdrożeniu sprawdź przykładowo: /lokalne-produkty/miasta/katowice/artykuly-biurowe/
+Wgraj jako pierwszą. Zawiera 16 zaktualizowanych stron województw, 16 nowych poradników, CSS i logo.
