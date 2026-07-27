@@ -1,0 +1,7 @@
+/lokalne-produkty/miasta/*
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/404.html
+  Cache-Control: no-cache, no-store, must-revalidate
