@@ -14,5 +14,6 @@ SPOSÓB WGRANIA:
 5. Zgódź się na zastąpienie istniejących plików index.html.
 6. Poczekaj na zakończenie wdrożenia Cloudflare Pages przed kolejną częścią.
 
-KOLEJNOŚĆ: Wgraj tę część po poprawnym wdrożeniu części 02A.
-Zawiera zaktualizowane strony 25 miast oraz 25 nowych poradników „Artykuły biurowe”.
+KOLEJNOŚĆ: Wgraj tę część jako ostatnią.
+Zawiera zaktualizowane strony pozostałych 25 miast, 25 nowych poradników oraz końcowy plik sitemap.xml z 66 nowymi adresami.
+Po wdrożeniu sprawdź przykładowo: /lokalne-produkty/miasta/katowice/artykuly-biurowe/
