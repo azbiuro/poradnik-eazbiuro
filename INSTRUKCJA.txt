@@ -14,6 +14,5 @@ SPOSÓB WGRANIA:
 5. Zgódź się na zastąpienie istniejących plików index.html.
 6. Poczekaj na zakończenie wdrożenia Cloudflare Pages przed kolejną częścią.
 
-KOLEJNOŚĆ: Wgraj tę część jako pierwszą.
-Zawiera 16 stron województw, 16 nowych poradników „Artykuły biurowe”, zatwierdzony styl CSS i logo A-Z Biuro.
-Po wdrożeniu sprawdź przykładowo: /lokalne-produkty/wojewodztwa/slaskie/artykuly-biurowe/
+KOLEJNOŚĆ: Wgraj tę część po poprawnym wdrożeniu części 02A.
+Zawiera zaktualizowane strony 25 miast oraz 25 nowych poradników „Artykuły biurowe”.
