@@ -1,0 +1,8 @@
+PAKIET 01 POPRAWIONY – CTA NA POCZĄTKU KAŻDEJ STRONY
+
+Zmiana: pod leadem na początku każdej strony dodano dwa widoczne przyciski:
+1. Zobacz profesjonalną chemię – prowadzi do działu sklepu.
+2. Przejdź do sklepu – prowadzi do strony głównej sklepu.
+
+Pakiet nie zawiera assets/style.css, więc nie zmienia czcionki Open Sans.
+Rozpakuj ZIP i wgraj folder oferta-lokalna, zastępując istniejące pliki.
