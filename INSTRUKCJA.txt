@@ -1,8 +1,8 @@
-PAKIET 21B – MYDŁO W PŁYNIE: MIASTA 01–25
+PAKIET 21C – MYDŁO W PŁYNIE: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_21B_MYDLO_W_PLYNIE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/mydlo-w-plynie/index.html.
+2. Otwórz folder PAKIET_21C_MYDLO_W_PLYNIE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/mydlo-w-plynie/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 21C.
+6. Po wdrożeniu sprawdź sitemapę i kilka stron na telefonie.
