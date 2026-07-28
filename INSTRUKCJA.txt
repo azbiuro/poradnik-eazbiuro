@@ -17,4 +17,4 @@ SPOSÓB WGRANIA:
 5. Zgódź się na zastąpienie istniejących plików index.html.
 6. Po każdej części poczekaj na zakończenie wdrożenia Cloudflare Pages.
 
-Wgraj po części 08A. Zawiera 25 zaktualizowanych stron miast oraz 25 nowych poradników.
+Wgraj jako ostatnią. Zawiera pozostałe 25 miast oraz końcową sitemapę.
