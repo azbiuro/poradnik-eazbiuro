@@ -1,8 +1,8 @@
-PAKIET 47A – IDENTYFIKATORY: 16 WOJEWÓDZTW
+PAKIET 47B – IDENTYFIKATORY: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_47A_IDENTYFIKATORY_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/identyfikatory/index.html.
+2. Otwórz folder PAKIET_47B_IDENTYFIKATORY_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/identyfikatory/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 47B.
+6. Następnie wgraj pakiet 47C.
