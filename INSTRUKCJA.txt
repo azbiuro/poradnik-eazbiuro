@@ -1,8 +1,8 @@
-PAKIET 53C – KARTONY PAKOWE: MIASTA 26–50 I SITEMAP
+PAKIET 54A – KASETKI METALOWE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_53C_KARTONY_PAKOWE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
-4. Sprawdź lokalne-produkty/miasta/warszawa/kartony-pakowe/index.html.
+2. Otwórz folder PAKIET_54A_KASETKI_METALOWE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kasetki-metalowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Sprawdź sitemapę i strony na telefonie.
+6. Następnie wgraj pakiet 54B.
