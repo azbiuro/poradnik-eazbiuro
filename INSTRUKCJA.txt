@@ -1,8 +1,8 @@
-PAKIET 18A – RĘCZNIKI PAPIEROWE: 16 WOJEWÓDZTW
+PAKIET 18B – RĘCZNIKI PAPIEROWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_18A_RECZNIKI_PAPIEROWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/reczniki-papierowe/index.html.
+2. Otwórz folder PAKIET_18B_RECZNIKI_PAPIEROWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/reczniki-papierowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 18B.
+6. Następnie wgraj pakiet 18C.
