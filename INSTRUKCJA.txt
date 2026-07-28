@@ -1,8 +1,8 @@
-PAKIET 57A – KLEJ W SZTYFCIE: 16 WOJEWÓDZTW
+PAKIET 57B – KLEJ W SZTYFCIE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_57A_KLEJ_W_SZTYFCIE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/klej-w-plynie/index.html.
+2. Otwórz folder PAKIET_57B_KLEJ_W_SZTYFCIE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/klej-w-plynie/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 57B.
+6. Następnie wgraj pakiet 57C.
