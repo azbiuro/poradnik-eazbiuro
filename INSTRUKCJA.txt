@@ -1,8 +1,8 @@
-PAKIET 30C – SEGREGATORY ESSELTE: MIASTA 26–50 I SITEMAP
+PAKIET 31A – KOSZULKI NA DOKUMENTY: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_30C_SEGREGATORY_ESSELTE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/segregatory-esselte/index.html.
+2. Otwórz folder PAKIET_31A_KOSZULKI_NA_DOKUMENTY_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/koszulki-na-dokumenty/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Po wdrożeniu sprawdź sitemapę i kilka stron na telefonie.
+6. Następnie wgraj pakiet 31B.
