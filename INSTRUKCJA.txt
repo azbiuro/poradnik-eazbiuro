@@ -1,8 +1,8 @@
-PAKIET 50A – KALKULATORY: 16 WOJEWÓDZTW
+PAKIET 50B – KALKULATORY: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_51A_KALKULATORY_NAUKOWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kalkulatory-naukowe/index.html.
+2. Otwórz folder PAKIET_51B_KALKULATORY_NAUKOWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/kalkulatory-naukowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 50B.
+6. Następnie wgraj pakiet 50C.
