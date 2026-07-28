@@ -1,9 +1,9 @@
 PAKIET 09 – TONERY I TUSZE
 
 1. Rozpakuj plik ZIP na komputerze.
-2. Otwórz folder PAKIET_09A_TONERY_I_TUSZE_16_WOJEWODZTW.
+2. Otwórz folder PAKIET_09B_TONERY_I_TUSZE_MIASTA_01-25.
 3. Będąc w GŁÓWNYM katalogu repozytorium GitHub wybierz Add file → Upload files.
 4. Wgraj widoczne w tym folderze katalogi i pliki.
-5. Nie wgrywaj samego ZIP-a ani folderu nadrzędnego PAKIET_09A_TONERY_I_TUSZE_16_WOJEWODZTW.
+5. Nie wgrywaj samego ZIP-a ani folderu nadrzędnego PAKIET_09B_TONERY_I_TUSZE_MIASTA_01-25.
 6. Przed zatwierdzeniem sprawdź, czy ścieżki zaczynają się od lokalne-produkty/ lub assets/.
 7. Wgrywaj części w kolejności 09A, 09B, 09C. Plik sitemap.xml znajduje się dopiero w części 09C.
