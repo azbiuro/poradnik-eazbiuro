@@ -122,3 +122,14 @@
 .toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px}.toc li{min-width:0}.toc a{display:inline;white-space:normal}
 .top-actions{min-width:0}.top-actions .btn{max-width:100%;white-space:normal;text-align:center;overflow-wrap:anywhere}
 @media(max-width:620px){.toc ol{grid-template-columns:1fr}.location-category-card,.cta-panel,.quick-answer,.safety-note{max-width:100%}.top-actions .btn{min-width:0;width:100%}}
+
+
+/* Pakiet 18: ręczniki papierowe – pełna ochrona responsywna */
+.content-box,.sidebar-card,.location-category-card,.split-cards article,.cta-panel,.decision-box,.quick-answer,.toc,.safety-note{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.article a,.sidebar a,.location-category-card a,.brand-links a,.related-list a,.category-links a,.toc a{overflow-wrap:anywhere;word-break:normal}
+.article table{width:100%!important;min-width:0!important;max-width:100%!important;table-layout:fixed}.article th,.article td{min-width:0!important;white-space:normal!important;overflow-wrap:anywhere;word-break:normal}
+.location-category-card>div,.cta-panel>div,.quick-answer>div{min-width:0;max-width:100%}
+.sidebar .brand-links,.sidebar .category-links{grid-template-columns:1fr}.sidebar .brand-links li a,.sidebar .category-links li a{word-break:normal;overflow-wrap:break-word}
+.toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px}.toc li{min-width:0}.toc a{display:inline;white-space:normal}
+.top-actions{min-width:0}.top-actions .btn{max-width:100%;white-space:normal;text-align:center;overflow-wrap:anywhere}
+@media(max-width:620px){.toc ol{grid-template-columns:1fr}.location-category-card,.cta-panel,.quick-answer{max-width:100%}.top-actions .btn{min-width:0;width:100%}.compare-table{min-width:0!important}}

@@ -1,7 +1,8 @@
-PAKIET 17C – OPAKOWANIA JEDNORAZOWE: MIASTA 26–50 I SITEMAP
+PAKIET 18A – RĘCZNIKI PAPIEROWE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_17C_OPAKOWANIA_JEDNORAZOWE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-5. Ten pakiet wgrywa się jako ostatni.
+2. Otwórz folder PAKIET_18A_RECZNIKI_PAPIEROWE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/reczniki-papierowe/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Następnie wgraj pakiet 18B.
