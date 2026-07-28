@@ -1,20 +1,9 @@
-PAKIET 08 – PAPIER KSERO
+PAKIET 09 – TONERY I TUSZE
 
-Pakiet rozszerza dział „Lokalne produkty” o papier ksero dla 16 województw i 50 miast.
-Każda strona zawiera logo A-Z Biuro, Open Sans, kolory #cd0000, #105fa6 i #7b848d, przyciski do sklepu, różne linki do działów papieru oraz marek i pełną treść poradnikową.
-
-ZAKRES AUDYTU:
-Każda strona została sprawdzona osobno pod kątem SEO technicznego, treści, linków wewnętrznych, logo, kolorów, przycisków, responsywności i elementów wychodzących poza ramkę na szerokości 1440 px i 390 px.
-
-STAŁA STRUKTURA PACZKI:
-Po rozpakowaniu otwórz folder PAKIET_08... W środku od razu znajdują się foldery i pliki przeznaczone do wgrania. Nie ma katalogu „DO_WGRANIA”.
-
-SPOSÓB WGRANIA:
-1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_08...
-3. Będąc w GŁÓWNYM katalogu repozytorium GitHub, wgraj widoczne foldery i pliki.
-4. Nie wgrywaj samego ZIP-a ani folderu PAKIET_08... jako dodatkowego poziomu.
-5. Zgódź się na zastąpienie istniejących plików index.html.
-6. Po każdej części poczekaj na zakończenie wdrożenia Cloudflare Pages.
-
-Wgraj jako ostatnią. Zawiera pozostałe 25 miast oraz końcową sitemapę.
+1. Rozpakuj plik ZIP na komputerze.
+2. Otwórz folder PAKIET_09A_TONERY_I_TUSZE_16_WOJEWODZTW.
+3. Będąc w GŁÓWNYM katalogu repozytorium GitHub wybierz Add file → Upload files.
+4. Wgraj widoczne w tym folderze katalogi i pliki.
+5. Nie wgrywaj samego ZIP-a ani folderu nadrzędnego PAKIET_09A_TONERY_I_TUSZE_16_WOJEWODZTW.
+6. Przed zatwierdzeniem sprawdź, czy ścieżki zaczynają się od lokalne-produkty/ lub assets/.
+7. Wgrywaj części w kolejności 09A, 09B, 09C. Plik sitemap.xml znajduje się dopiero w części 09C.
