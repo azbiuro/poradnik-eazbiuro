@@ -1,8 +1,8 @@
-PAKIET 56A – KLEJ W SPRAYU: 16 WOJEWÓDZTW
+PAKIET 56B – KLEJ W SPRAYU: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_56A_KLEJ_W_SPRAYU_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/klej-w-sprayu/index.html.
+2. Otwórz folder PAKIET_56B_KLEJ_W_SPRAYU_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/klej-w-sprayu/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 56B.
+6. Następnie wgraj pakiet 56C.
