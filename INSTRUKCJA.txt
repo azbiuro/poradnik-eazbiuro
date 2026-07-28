@@ -1,8 +1,8 @@
-PAKIET 54A – KASETKI METALOWE: 16 WOJEWÓDZTW
+PAKIET 54B – KASETKI METALOWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_54A_KASETKI_METALOWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kasetki-metalowe/index.html.
+2. Otwórz folder PAKIET_54B_KASETKI_METALOWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/kasetki-metalowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 54B.
+6. Następnie wgraj pakiet 54C.
