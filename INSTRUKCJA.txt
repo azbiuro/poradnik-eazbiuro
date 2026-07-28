@@ -1,8 +1,8 @@
-PAKIET 32B – KOSZULKI NA DOKUMENTY: MIASTA 01–25
+PAKIET 32C – KOSZULKI NA DOKUMENTY: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_32B_KOSZULKI_KRYSTALICZNE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/koszulki-krystaliczne/index.html.
+2. Otwórz folder PAKIET_32C_KOSZULKI_KRYSTALICZNE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
+4. Sprawdź lokalne-produkty/miasta/warszawa/koszulki-krystaliczne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 31C.
+6. Sprawdź sitemapę i strony na telefonie.
