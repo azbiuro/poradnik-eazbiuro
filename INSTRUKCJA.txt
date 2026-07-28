@@ -1,8 +1,8 @@
-PAKIET 46B – GUMKI RECEPTURKI: MIASTA 01–25
+PAKIET 46C – GUMKI RECEPTURKI: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_46B_GUMKI_RECEPTURKI_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/gumki-recepturki/index.html.
+2. Otwórz folder PAKIET_46C_GUMKI_RECEPTURKI_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
+4. Sprawdź lokalne-produkty/miasta/warszawa/gumki-recepturki/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 45C.
+6. Sprawdź sitemapę i strony na telefonie.
