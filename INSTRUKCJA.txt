@@ -1,8 +1,8 @@
-PAKIET 22B – WORKI NA ŚMIECI: MIASTA 01–25
+PAKIET 22C – WORKI NA ŚMIECI: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_22B_WORKI_NA_SMIECI_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/worki-na-smieci/index.html.
+2. Otwórz folder PAKIET_22C_WORKI_NA_SMIECI_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/worki-na-smieci/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 22C.
+6. Po wdrożeniu sprawdź sitemapę i kilka stron na telefonie.
