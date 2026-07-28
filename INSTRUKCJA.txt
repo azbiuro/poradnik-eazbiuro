@@ -1,8 +1,8 @@
-PAKIET 53A – KARTONY PAKOWE: 16 WOJEWÓDZTW
+PAKIET 53B – KARTONY PAKOWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_53A_KARTONY_PAKOWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kartony-pakowe/index.html.
+2. Otwórz folder PAKIET_53B_KARTONY_PAKOWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/kartony-pakowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 53B.
+6. Następnie wgraj pakiet 53C.
