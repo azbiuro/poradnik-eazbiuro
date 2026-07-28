@@ -1,8 +1,8 @@
-PAKIET 20C – DOZOWNIKI DO MYDŁA: MIASTA 26–50 I SITEMAP
+PAKIET 21A – MYDŁO W PŁYNIE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_20C_DOZOWNIKI_DO_MYDLA_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/dozowniki-do-mydla/index.html.
+2. Otwórz folder PAKIET_21A_MYDLO_W_PLYNIE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/mydlo-w-plynie/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Po wdrożeniu sprawdź sitemapę i kilka stron na telefonie.
+6. Następnie wgraj pakiet 21B.
