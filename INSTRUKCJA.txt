@@ -1,7 +1,8 @@
-PAKIET 12C – CHEMIA DO BIURA: MIASTA 26–50 I SITEMAP
+PAKIET 13A – CHEMIA DLA FIRM SPRZĄTAJĄCYCH: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_12C_CHEMIA_DO_BIURA_MIASTA_26-50_I_SITEMAP.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-5. Ten pakiet wgrywa się jako ostatni, ponieważ zawiera zaktualizowaną mapę strony.
+2. Otwórz folder PAKIET_13A_CHEMIA_DLA_FIRM_SPRZATAJACYCH_16_WOJEWODZTW.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/chemia-dla-firm-sprzatajacych/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Następnie wgraj pakiet 13B.
