@@ -1,7 +1,8 @@
-PAKIET 18C – RĘCZNIKI PAPIEROWE: MIASTA 26–50 I SITEMAP
+PAKIET 19A – PAPIER TOALETOWY: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_18C_RECZNIKI_PAPIEROWE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/reczniki-papierowe/index.html.
-5. Zatwierdź zmiany i po wdrożeniu sprawdź sitemapę.
+2. Otwórz folder PAKIET_19A_PAPIER_TOALETOWY_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/papier-toaletowy/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Następnie wgraj pakiet 19B.
