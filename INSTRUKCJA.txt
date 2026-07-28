@@ -1,8 +1,8 @@
-PAKIET 37A – ETYKIETY SAMOPRZYLEPNE: 16 WOJEWÓDZTW
+PAKIET 37B – ETYKIETY SAMOPRZYLEPNE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_37A_ETYKIETY_SAMOPRZYLEPNE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/etykiety-samoprzylepne/index.html.
+2. Otwórz folder PAKIET_37B_ETYKIETY_SAMOPRZYLEPNE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/etykiety-samoprzylepne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 37B.
+6. Następnie wgraj pakiet 37C.
