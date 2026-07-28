@@ -1,8 +1,8 @@
-PAKIET 21A – MYDŁO W PŁYNIE: 16 WOJEWÓDZTW
+PAKIET 21B – MYDŁO W PŁYNIE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_21A_MYDLO_W_PLYNIE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/mydlo-w-plynie/index.html.
+2. Otwórz folder PAKIET_21B_MYDLO_W_PLYNIE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/mydlo-w-plynie/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 21B.
+6. Następnie wgraj pakiet 21C.
