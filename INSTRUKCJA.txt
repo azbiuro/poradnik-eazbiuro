@@ -1,8 +1,8 @@
-PAKIET 36A – PRZEKŁADKI DO SEGREGATORÓW: 16 WOJEWÓDZTW
+PAKIET 36B – PRZEKŁADKI DO SEGREGATORÓW: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_36A_PRZEKLADKI_DO_SEGREGATOROW_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/przekladki-do-segregatorow/index.html.
+2. Otwórz folder PAKIET_36B_PRZEKLADKI_DO_SEGREGATOROW_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/przekladki-do-segregatorow/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 36B.
+6. Następnie wgraj pakiet 36C.
