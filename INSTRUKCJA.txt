@@ -1,8 +1,8 @@
-PAKIET 26A – PREPARATY DO ŁAZIENEK: 16 WOJEWÓDZTW
+PAKIET 26B – PREPARATY DO ŁAZIENEK: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_26A_PREPARATY_DO_LAZIENEK_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/preparaty-do-lazienek/index.html.
+2. Otwórz folder PAKIET_26B_PREPARATY_DO_LAZIENEK_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/preparaty-do-lazienek/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 26B.
+6. Następnie wgraj pakiet 26C.
