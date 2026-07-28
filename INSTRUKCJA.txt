@@ -1,8 +1,8 @@
-PAKIET 38A – ETYKIETY UNIWERSALNE: 16 WOJEWÓDZTW
+PAKIET 38B – ETYKIETY UNIWERSALNE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_38A_ETYKIETY_UNIWERSALNE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/etykiety-uniwersalne/index.html.
+2. Otwórz folder PAKIET_38B_ETYKIETY_UNIWERSALNE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/etykiety-uniwersalne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 38B.
+6. Następnie wgraj pakiet 38C.
