@@ -1,7 +1,8 @@
-PAKIET 11C – CHEMIA GOSPODARCZA: MIASTA 26–50 I SITEMAP
+PAKIET 12A – CHEMIA DO BIURA: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_11C_CHEMIA_GOSPODARCZA_MIASTA_26-50_I_SITEMAP.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-5. Ten pakiet wgrywa się jako ostatni, ponieważ zawiera zaktualizowaną mapę strony.
+2. Otwórz folder PAKIET_12A_CHEMIA_DO_BIURA_16_WOJEWODZTW.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź ścieżkę np. lokalne-produkty/wojewodztwa/slaskie/chemia-do-biura/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Następnie wgraj pakiet 12B.
