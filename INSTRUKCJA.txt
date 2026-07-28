@@ -1,8 +1,8 @@
-PAKIET 34A – PUDŁA ARCHIWIZACYJNE: 16 WOJEWÓDZTW
+PAKIET 34B – PUDŁA ARCHIWIZACYJNE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_34A_PUDLA_ARCHIWIZACYJNE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/pudla-archiwizacyjne/index.html.
+2. Otwórz folder PAKIET_34B_PUDLA_ARCHIWIZACYJNE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/pudla-archiwizacyjne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 33B.
+6. Następnie wgraj pakiet 33C.
