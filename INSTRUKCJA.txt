@@ -1,8 +1,7 @@
-PAKIET 18B – RĘCZNIKI PAPIEROWE: MIASTA 01–25
+PAKIET 18C – RĘCZNIKI PAPIEROWE: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_18B_RECZNIKI_PAPIEROWE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/reczniki-papierowe/index.html.
-5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 18C.
+2. Otwórz folder PAKIET_18C_RECZNIKI_PAPIEROWE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/warszawa/reczniki-papierowe/index.html.
+5. Zatwierdź zmiany i po wdrożeniu sprawdź sitemapę.
