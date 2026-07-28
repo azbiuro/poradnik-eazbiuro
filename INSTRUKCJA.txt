@@ -1,8 +1,8 @@
-PAKIET 12A – CHEMIA DO BIURA: 16 WOJEWÓDZTW
+PAKIET 12B – CHEMIA DO BIURA: MIASTA 01–25
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_12A_CHEMIA_DO_BIURA_16_WOJEWODZTW.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
-4. Przed zatwierdzeniem sprawdź ścieżkę np. lokalne-produkty/wojewodztwa/slaskie/chemia-do-biura/index.html.
+2. Otwórz folder PAKIET_12B_CHEMIA_DO_BIURA_MIASTA_01-25.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź ścieżki lokalne-produkty/miasta/.../chemia-do-biura/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 12B.
+6. Następnie wgraj pakiet 12C.
