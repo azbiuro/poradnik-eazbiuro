@@ -1,8 +1,8 @@
-PAKIET 48B – JETSTREAM: MIASTA 01–25
+PAKIET 48C – JETSTREAM: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_48B_JETSTREAM_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/jetstream/index.html.
+2. Otwórz folder PAKIET_48C_JETSTREAM_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
+4. Sprawdź lokalne-produkty/miasta/warszawa/jetstream/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 48C.
+6. Sprawdź sitemapę i strony na telefonie.
