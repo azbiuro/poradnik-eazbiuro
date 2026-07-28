@@ -1,8 +1,8 @@
-PAKIET 27A – SEGREGATORY: 16 WOJEWÓDZTW
+PAKIET 27B – SEGREGATORY: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_28A_SEGREGATORY_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/segregatory/index.html.
+2. Otwórz folder PAKIET_28B_SEGREGATORY_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/segregatory/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 27B.
+6. Następnie wgraj pakiet 27C.
