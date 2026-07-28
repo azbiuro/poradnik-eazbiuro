@@ -1,8 +1,8 @@
-PAKIET 22A – WORKI NA ŚMIECI: 16 WOJEWÓDZTW
+PAKIET 22B – WORKI NA ŚMIECI: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_22A_WORKI_NA_SMIECI_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/worki-na-smieci/index.html.
+2. Otwórz folder PAKIET_22B_WORKI_NA_SMIECI_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/worki-na-smieci/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 22B.
+6. Następnie wgraj pakiet 22C.
