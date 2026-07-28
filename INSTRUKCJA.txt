@@ -1,8 +1,8 @@
-PAKIET 52C – KARTECZKI SAMOPRZYLEPNE: MIASTA 26–50 I SITEMAP
+PAKIET 53A – KARTONY PAKOWE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_52C_KARTECZKI_SAMOPRZYLEPNE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
-4. Sprawdź lokalne-produkty/miasta/warszawa/karteczki-samoprzylepne/index.html.
+2. Otwórz folder PAKIET_53A_KARTONY_PAKOWE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kartony-pakowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Sprawdź sitemapę i strony na telefonie.
+6. Następnie wgraj pakiet 53B.
