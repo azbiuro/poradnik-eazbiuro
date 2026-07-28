@@ -1,8 +1,7 @@
-PAKIET 15B – URZĄDZENIA BIUROWE: MIASTA 01–25
+PAKIET 15C – URZĄDZENIA BIUROWE: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_15B_URZADZENIA_BIUROWE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź, czy ścieżki zaczynają się od lokalne-produkty/miasta/.
-5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 15C.
+2. Otwórz folder PAKIET_15C_URZADZENIA_BIUROWE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
+4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+5. Ten pakiet wgrywa się jako ostatni.
