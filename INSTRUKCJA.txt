@@ -1,8 +1,8 @@
-PAKIET 31A – KOSZULKI NA DOKUMENTY: 16 WOJEWÓDZTW
+PAKIET 31B – KOSZULKI NA DOKUMENTY: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_31A_KOSZULKI_NA_DOKUMENTY_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/koszulki-na-dokumenty/index.html.
+2. Otwórz folder PAKIET_31B_KOSZULKI_NA_DOKUMENTY_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/koszulki-na-dokumenty/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 31B.
+6. Następnie wgraj pakiet 31C.
