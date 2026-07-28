@@ -1,8 +1,8 @@
-PAKIET 11A – CHEMIA GOSPODARCZA: 16 WOJEWÓDZTW
+PAKIET 11B – CHEMIA GOSPODARCZA: MIASTA 01–25
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_11A_CHEMIA_GOSPODARCZA_16_WOJEWODZTW.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
-4. Przed zatwierdzeniem sprawdź ścieżkę np. lokalne-produkty/wojewodztwa/slaskie/chemia-gospodarcza/index.html.
+2. Otwórz folder PAKIET_11B_CHEMIA_GOSPODARCZA_MIASTA_01-25.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź ścieżki lokalne-produkty/miasta/.../chemia-gospodarcza/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 11B.
+6. Następnie wgraj pakiet 11C.
