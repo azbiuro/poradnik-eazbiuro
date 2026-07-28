@@ -1,9 +1,8 @@
-PAKIET 09 – TONERY I TUSZE
+PAKIET 10A – ARTYKUŁY PAPIERNICZE: 16 WOJEWÓDZTW
 
-1. Rozpakuj plik ZIP na komputerze.
-2. Otwórz folder PAKIET_09C_TONERY_I_TUSZE_MIASTA_26-50_I_SITEMAP.
-3. Będąc w GŁÓWNYM katalogu repozytorium GitHub wybierz Add file → Upload files.
-4. Wgraj widoczne w tym folderze katalogi i pliki.
-5. Nie wgrywaj samego ZIP-a ani folderu nadrzędnego PAKIET_09C_TONERY_I_TUSZE_MIASTA_26-50_I_SITEMAP.
-6. Przed zatwierdzeniem sprawdź, czy ścieżki zaczynają się od lokalne-produkty/ lub assets/.
-7. Wgrywaj części w kolejności 09A, 09B, 09C. Plik sitemap.xml znajduje się dopiero w części 09C.
+1. Rozpakuj ZIP na komputerze.
+2. Otwórz folder PAKIET_10A_ARTYKULY_PAPIERNICZE_16_WOJEWODZTW.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź, czy widzisz ścieżki np. lokalne-produkty/wojewodztwa/slaskie/artykuly-papiernicze/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Potem wgraj pakiet 10B.

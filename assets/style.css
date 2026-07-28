@@ -30,3 +30,13 @@
 .btn,.brand-links a,.related-list a{max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center}
 .split-cards>*{min-width:0}.split-cards article{overflow:hidden}.brand-links li{min-width:0}
 @media(max-width:620px){.article h2{font-size:clamp(1.35rem,7vw,1.8rem)}.btn{padding-inline:14px}}
+
+
+/* Pakiet 10: dodatkowa ochrona treści papierniczej przed wyjściem poza ramki */
+.content-box,.sidebar-card,.location-category-card,.split-cards article,.cta-panel,.decision-box,.quick-answer,.toc{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.article a,.sidebar a,.location-category-card a,.brand-links a,.related-list a{overflow-wrap:anywhere;word-break:normal}
+.article table{max-width:100%}.article code{white-space:normal;overflow-wrap:anywhere}
+.location-category-card>div,.cta-panel>div,.quick-answer>div{min-width:0;max-width:100%}
+.sidebar .brand-links{grid-template-columns:1fr}
+.sidebar .brand-links li a{word-break:normal;overflow-wrap:break-word}
+@media(max-width:620px){.location-category-card,.cta-panel,.quick-answer{max-width:100%}.top-actions .btn{min-width:0}}
