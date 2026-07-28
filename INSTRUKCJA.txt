@@ -1,8 +1,8 @@
-PAKIET 20A – DOZOWNIKI DO MYDŁA: 16 WOJEWÓDZTW
+PAKIET 20B – DOZOWNIKI DO MYDŁA: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_20A_DOZOWNIKI_DO_MYDLA_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/dozowniki-do-mydla/index.html.
+2. Otwórz folder PAKIET_20B_DOZOWNIKI_DO_MYDLA_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/dozowniki-do-mydla/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 20B.
+6. Następnie wgraj pakiet 20C.
