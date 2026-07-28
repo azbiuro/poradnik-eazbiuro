@@ -1,8 +1,8 @@
-PAKIET 39A – ETYKIETY WYSYŁKOWE: 16 WOJEWÓDZTW
+PAKIET 39B – ETYKIETY WYSYŁKOWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_39A_ETYKIETY_WYSYLKOWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/etykiety-wysylkowe/index.html.
+2. Otwórz folder PAKIET_39B_ETYKIETY_WYSYLKOWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/etykiety-wysylkowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 39B.
+6. Następnie wgraj pakiet 39C.
