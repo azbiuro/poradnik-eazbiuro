@@ -1,8 +1,8 @@
-PAKIET 23A – CZYŚCIWA PRZEMYSŁOWE: 16 WOJEWÓDZTW
+PAKIET 23B – CZYŚCIWA PRZEMYSŁOWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_23A_CZYSCIWA_PRZEMYSLOWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/czysciwa-przemyslowe/index.html.
+2. Otwórz folder PAKIET_23B_CZYSCIWA_PRZEMYSLOWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/czysciwa-przemyslowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 22B.
+6. Następnie wgraj pakiet 22C.
