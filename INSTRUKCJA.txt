@@ -1,8 +1,8 @@
-PAKIET 29A – SEGREGATORY DONAU: 16 WOJEWÓDZTW
+PAKIET 29B – SEGREGATORY DONAU: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_29A_SEGREGATORY_DONAU_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/segregatory-donau/index.html.
+2. Otwórz folder PAKIET_29B_SEGREGATORY_DONAU_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź ścieżkę lokalne-produkty/miasta/katowice/segregatory-donau/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 29B.
+6. Następnie wgraj pakiet 29C.
