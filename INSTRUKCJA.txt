@@ -1,8 +1,8 @@
-PAKIET 50B – KALKULATORY: MIASTA 01–25
+PAKIET 52A – KARTECZKI SAMOPRZYLEPNE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_51B_KALKULATORY_NAUKOWE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/kalkulatory-naukowe/index.html.
+2. Otwórz folder PAKIET_52A_KARTECZKI_SAMOPRZYLEPNE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/karteczki-samoprzylepne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 50C.
+6. Następnie wgraj pakiet 52B.
