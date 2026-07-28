@@ -1,8 +1,7 @@
-PAKIET 12B – CHEMIA DO BIURA: MIASTA 01–25
+PAKIET 12C – CHEMIA DO BIURA: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_12B_CHEMIA_DO_BIURA_MIASTA_01-25.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty”.
-4. Przed zatwierdzeniem sprawdź ścieżki lokalne-produkty/miasta/.../chemia-do-biura/index.html.
-5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 12C.
+2. Otwórz folder PAKIET_12C_CHEMIA_DO_BIURA_MIASTA_26-50_I_SITEMAP.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
+4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+5. Ten pakiet wgrywa się jako ostatni, ponieważ zawiera zaktualizowaną mapę strony.
