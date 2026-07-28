@@ -1,7 +1,8 @@
-PAKIET 13C – CHEMIA DLA FIRM SPRZĄTAJĄCYCH: MIASTA 26–50 I SITEMAP
+PAKIET 14A – CHEMIA DLA GASTRONOMII: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP na komputerze.
-2. Otwórz folder PAKIET_13C_CHEMIA_DLA_FIRM_SPRZATAJACYCH_MIASTA_26-50_I_SITEMAP.
-3. Będąc w głównym katalogu repozytorium GitHub, wgraj folder „lokalne-produkty” oraz plik „sitemap.xml”.
-4. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-5. Ten pakiet wgrywa się jako ostatni.
+2. Otwórz folder PAKIET_14A_CHEMIA_DLA_GASTRONOMII_16_WOJEWODZTW.
+3. Będąc w głównym katalogu repozytorium GitHub, wgraj foldery „assets” i „lokalne-produkty”.
+4. Przed zatwierdzeniem sprawdź ścieżkę lokalne-produkty/wojewodztwa/slaskie/chemia-dla-gastronomii/index.html.
+5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
+6. Następnie wgraj pakiet 14B.
