@@ -1,8 +1,8 @@
-PAKIET 67A – KOPERTY ROZSZERZANE: 16 WOJEWÓDZTW
+PAKIET 60A – KLEJE SPECJALNE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_67A_KOPERTY_ROZSZERZANE_16_WOJEWODZTW.
+2. Otwórz folder PAKIET_60A_KLEJE_SPECJALNE_16_WOJEWODZTW.
 3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/koperty-rozszerzane/index.html.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/kleje-specjalne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 67B.
+6. Następnie wgraj pakiet 59B.
