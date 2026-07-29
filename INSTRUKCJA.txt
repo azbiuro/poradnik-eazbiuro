@@ -1,8 +1,8 @@
-PAKIET 60B – KLEJE SPECJALNE: MIASTA 01–25
+PAKIET 60C – KLEJE SPECJALNE: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_60B_KLEJE_SPECJALNE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/kleje-specjalne/index.html.
+2. Otwórz folder PAKIET_60C_KLEJE_SPECJALNE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
+4. Sprawdź lokalne-produkty/miasta/warszawa/kleje-specjalne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 59C.
+6. Sprawdź sitemapę i strony na telefonie.
