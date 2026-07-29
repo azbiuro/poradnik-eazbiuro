@@ -1,8 +1,8 @@
-PAKIET 65C – KOPERTY KURIERSKIE: MIASTA 26–50 I SITEMAP
+PAKIET 69A – KOPERTY STANDARDOWE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_65C_KOPERTY_KURIERSKIE_MIASTA_26-50_I_SITEMAP.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
-4. Sprawdź lokalne-produkty/miasta/warszawa/koperty-kurierskie/index.html.
+2. Otwórz folder PAKIET_69A_KOPERTY_STANDARDOWE_16_WOJEWODZTW.
+3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/koperty-standardowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Sprawdź sitemapę i strony na telefonie.
+6. Następnie wgraj pakiet 69B, a później pakiet 69C wraz z sitemap.xml.
