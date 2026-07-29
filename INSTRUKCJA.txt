@@ -1,8 +1,8 @@
-PAKIET 62A – KLIPY BIUROWE: 16 WOJEWÓDZTW
+PAKIET 62B – KLIPY BIUROWE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_62A_KLIPY_BIUROWE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/klipy-biurowe/index.html.
+2. Otwórz folder PAKIET_62B_KLIPY_BIUROWE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/klipy-biurowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 62B.
+6. Następnie wgraj pakiet 62C.
