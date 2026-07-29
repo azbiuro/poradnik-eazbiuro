@@ -1,8 +1,8 @@
-PAKIET 64A – KOPERTY BEZPIECZNE: 16 WOJEWÓDZTW
+PAKIET 64B – KOPERTY BEZPIECZNE: MIASTA 01–25
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_64A_KOPERTY_BEZPIECZNE_16_WOJEWODZTW.
-3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/koperty-bezpieczne/index.html.
+2. Otwórz folder PAKIET_64B_KOPERTY_BEZPIECZNE_MIASTA_01-25.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
+4. Sprawdź lokalne-produkty/miasta/katowice/koperty-bezpieczne/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 64B.
+6. Następnie wgraj pakiet 64C.
