@@ -1,8 +1,8 @@
-PAKIET 59B – KLEJE BIUROWE: MIASTA 01–25
+PAKIET 59C – KLEJE BIUROWE: MIASTA 26–50 I SITEMAP
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_59B_KLEJE_BIUROWE_MIASTA_01-25.
-3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/miasta/katowice/kleje-biurowe/index.html.
+2. Otwórz folder PAKIET_59C_KLEJE_BIUROWE_MIASTA_26-50_I_SITEMAP.
+3. W głównym katalogu repozytorium GitHub wgraj folder „lokalne-produkty” oraz „sitemap.xml”.
+4. Sprawdź lokalne-produkty/miasta/warszawa/kleje-biurowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 59C.
+6. Sprawdź sitemapę i strony na telefonie.
