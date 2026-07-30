@@ -1,10 +1,10 @@
-PAKIET 97 – LAMPKI NA BIURKO
+PAKIET 98 – MATY OCHRONNE I WYCIERACZKI
 
 1. Rozpakuj paczkę w katalogu głównym projektu Cloudflare Pages.
 2. Zachowaj strukturę katalogów.
-3. Pakiet 97A zawiera assets/style.css i logo. Pakiety 97B i 97C zawierają kolejne strony.
-4. Pakiet 97C zawiera zaktualizowany sitemap.xml.
+3. Pakiet 98A zawiera assets/style.css i logo. Pakiety 98B i 98C zawierają kolejne strony.
+4. Pakiet 98C zawiera zaktualizowany sitemap.xml.
 5. Po wdrożeniu sprawdź losowo stronę województwa i miasta na komputerze oraz telefonie.
 
-Nowy dział: Lampki na biurko
+Nowy dział: Maty ochronne i wycieraczki
 Data modyfikacji: 2026-07-30
