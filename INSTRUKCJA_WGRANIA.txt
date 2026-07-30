@@ -1,22 +1,30 @@
-PAKIET – STRONA GŁÓWNA PORADNIK.EAZBIURO.PL – 52 DZIAŁY
-
-ZAWARTOŚĆ:
-- index.html – zaktualizowana strona główna,
-- 46 nowych katalogów działów z plikiem index.html,
-- INSTRUKCJA_WGRANIA.txt.
+PAKIET FINALNY STRONY GŁÓWNEJ – 54 DZIAŁY I 1134 PORADNIKI
 
 SPOSÓB WGRANIA:
-1. Rozpakuj ZIP na komputerze.
-2. Otwórz rozpakowany katalog i zaznacz całą jego zawartość: plik index.html, 46 katalogów działów oraz instrukcję.
-3. Wgraj zaznaczoną zawartość bezpośrednio do głównego katalogu repozytorium GitHub – tak jak w poprzednich paczkach.
-4. Zgódź się na zastąpienie wyłącznie istniejącego pliku index.html.
-5. Nie usuwaj istniejących katalogów, assets, robots.txt, sitemap.xml ani _redirects.
-6. Paczka celowo nie zawiera assets/style.css – korzysta z aktualnego stylu działającej strony i nie nadpisuje późniejszych poprawek.
-7. Po wdrożeniu poczekaj na zakończenie publikacji Cloudflare Pages i odśwież stronę skrótem Ctrl+F5.
+1. Rozpakuj plik ZIP na komputerze.
+2. Zaznacz całą zawartość po rozpakowaniu.
+3. Wgraj zawartość bezpośrednio do głównego katalogu repozytorium GitHub.
+4. Zgódź się na zastąpienie istniejącego pliku index.html oraz wskazanych plików i katalogów.
+5. Paczka nie zawiera globalnego assets/style.css i go nie nadpisuje.
+6. Poczekaj na zakończenie wdrożenia Cloudflare Pages.
+7. Po wdrożeniu wykonaj twarde odświeżenie przeglądarki: Ctrl+F5 lub Cmd+Shift+R.
 
-WAŻNE:
-- paczka zawiera łącznie 48 plików, czyli mniej niż limit 90 plików na jedno wgranie,
-- licznik na stronie głównej wynosi 52 główne działy,
-- „Lokalne produkty” są ostatnią kartą i nie są wliczone do liczby 52,
-- 46 nowych stron ma noindex,follow do czasu opublikowania pełnych poradników,
-- sitemap.xml nie jest zmieniany, ponieważ nowych stron tymczasowych nie należy jeszcze indeksować.
+PAKIET ZAWIERA:
+- poprawiony index.html bez usuwania żadnego z 54 działów,
+- 48 nowych stron startowych działów,
+- po 21 propozycji „Poradnik planowany” na każdej nowej stronie,
+- assets/logo-eazbiuro.png,
+- assets/homepage-sections.css.
+
+LICZNIKI:
+- 54 główne działy,
+- 6 grup tematycznych: 6, 6, 11, 11, 13 i 7 działów,
+- 1134 poradniki (54 × 21),
+- karta „Lokalne produkty” jest ostatnia i nie jest wliczana do 54 działów.
+
+KONTROLA:
+- nieaktualny licznik nie występuje w żadnym pliku paczki,
+- wszystkie 54 karty głównych działów są w całości klikalne,
+- wszystkie 54 piktogramy działów są unikatowe,
+- logo znajduje się na stronie głównej,
+- zastosowano kolory #cd0000, #105fa6, #7b848d oraz rgba(242,70,12,0.85).
