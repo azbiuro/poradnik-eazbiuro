@@ -1,8 +1,8 @@
-PAKIET 70A – NOŻE I AKCESORIA DO CIĘCIA: 16 WOJEWÓDZTW
+PAKIET 71A – OZNACZENIA PODŁOGOWE: 16 WOJEWÓDZTW
 
 1. Rozpakuj ZIP.
-2. Otwórz folder PAKIET_70A_NOZE_I_AKCESORIA_DO_CIECIA_16_WOJEWODZTW.
+2. Otwórz folder PAKIET_71A_OZNACZENIA_PODLOGOWE_16_WOJEWODZTW.
 3. W głównym katalogu repozytorium GitHub wgraj foldery „assets” i „lokalne-produkty”.
-4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/noze-i-akcesoria-do-ciecia/index.html.
+4. Sprawdź lokalne-produkty/wojewodztwa/slaskie/oznaczenia-podlogowe/index.html.
 5. Zatwierdź zmiany i poczekaj na wdrożenie Cloudflare.
-6. Następnie wgraj pakiet 70B, a później 70C wraz z sitemap.xml.
+6. Następnie wgraj pakiet 71B, a później 71C wraz z sitemap.xml.
