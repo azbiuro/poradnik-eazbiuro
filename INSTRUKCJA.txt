@@ -1,11 +1,11 @@
-PAKIET 85A – OKŁADKI DO BINDOWNIC
+PAKIET 86A – OKŁADKI DO TERMOBINDOWNIC
 
 Zawartość:
-- 16 stron wojewódzkich działu Okładki do bindownic
+- 16 stron wojewódzkich działu Okładki do termobindownic
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 85B i 85C wgraj po paczce 85A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 85C.
-Treść dotyczy wyłącznie okładek do bindownic, formatów, folii PCV, kartonu Chromolux, faktury, koloru, przodu i tyłu, zgodności z grzbietem, perforacji, montażu, kontroli oraz magazynowania.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 86B i 86C wgraj po paczce 86A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 86C.
+Treść dotyczy wyłącznie okładek termicznych A4, szerokości grzbietu, materiału, koloru, liczebności opakowania, zgodności z termobindownicą, przygotowania kartek, grzania, kleju, studzenia, kontroli i magazynowania.
