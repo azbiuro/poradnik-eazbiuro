@@ -1,10 +1,10 @@
-PAKIET 98 – MATY OCHRONNE I WYCIERACZKI
+PAKIET 99 – PODKŁADY NA BIURKO
 
 1. Rozpakuj paczkę w katalogu głównym projektu Cloudflare Pages.
 2. Zachowaj strukturę katalogów.
-3. Pakiet 98A zawiera assets/style.css i logo. Pakiety 98B i 98C zawierają kolejne strony.
-4. Pakiet 98C zawiera zaktualizowany sitemap.xml.
+3. Pakiet 99A zawiera assets/style.css i logo. Pakiety 99B i 99C zawierają kolejne strony.
+4. Pakiet 99C zawiera zaktualizowany sitemap.xml.
 5. Po wdrożeniu sprawdź losowo stronę województwa i miasta na komputerze oraz telefonie.
 
-Nowy dział: Maty ochronne i wycieraczki
+Nowy dział: Podkłady na biurko
 Data modyfikacji: 2026-07-30
