@@ -1,20 +1,11 @@
-PAKIET 77A – WORECZKI STRUNOWE – 16 WOJEWÓDZTW
+PAKIET 78A – AKCESORIA DO LAMINACJI
 
-ZAWARTOŚĆ
-- 16 nowych stron działu Woreczki strunowe,
-- 16 zaktualizowanych stron województw,
-- assets/style.css,
-- assets/logo-eazbiuro.png.
+Zawartość:
+- 16 stron wojewódzkich działu Akcesoria do laminacji
+- 16 zaktualizowanych stron głównych województw
+- assets/style.css
+- assets/logo-eazbiuro.png
 
-WGRANIE
-1. Rozpakuj paczkę.
-2. Wgraj folder lokalne-produkty do katalogu głównego repozytorium, scalając katalogi.
-3. Wgraj folder assets tylko wtedy, gdy repozytorium nie zawiera aktualnych plików z wcześniejszej paczki.
-4. Zachowaj pełne ścieżki i nazwy plików.
-5. Po wdrożeniu sprawdź przykładową stronę województwa oraz jej link do działu woreczków strunowych.
-
-KONTROLA
-- 32 pliki HTML,
-- 2 pliki w assets,
-- 1 plik instrukcji,
-- łącznie 35 plików regularnych.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 78B i 78C wgraj po paczce 78A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 78C.
+Treść dotyczy wyłącznie arkuszy A4 do czyszczenia laminatora i procedury konserwacji.
