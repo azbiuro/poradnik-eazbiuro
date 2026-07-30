@@ -1,0 +1,12 @@
+RAPORT PEŁNEGO AUDYTU PAKIETU STRONY GŁÓWNEJ
+
+1. Zachowano wszystkie 54 działy oraz stronę „Lokalne produkty”.
+2. Nie usunięto żadnego katalogu z 48 nowymi stronami działów.
+3. Układ grup na stronie głównej: 6, 6, 12, 12, 12 i 6 kart.
+4. Każdy ostatni rząd na komputerze zawiera dokładnie 3 karty.
+5. Przywrócono jednobarwne symbole zamiast kolorowych emoji.
+6. Zachowano kolory marki: #cd0000, #7b848d, #105fa6, rgba(242,70,12,0.85).
+7. Każda z 48 nowych stron ma 21 unikatowych, praktycznych tematów poradników.
+8. Łącznie poprawiono 1008 tytułów planowanych poradników.
+9. Usunięto seryjne rozpoczynanie tematów pełną nazwą działu.
+10. Nie zmieniono adresów kanonicznych, linków do sklepu ani struktury katalogów.
