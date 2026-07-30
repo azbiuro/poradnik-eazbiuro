@@ -1,11 +1,11 @@
-PAKIET 78A – AKCESORIA DO LAMINACJI
+PAKIET 79A – AKCESORIA DO BINDOWANIA
 
 Zawartość:
-- 16 stron wojewódzkich działu Akcesoria do laminacji
+- 16 stron wojewódzkich działu Akcesoria do bindowania
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 78B i 78C wgraj po paczce 78A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 78C.
-Treść dotyczy wyłącznie arkuszy A4 do czyszczenia laminatora i procedury konserwacji.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 79B i 79C wgraj po paczce 79A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 79C.
+Treść dotyczy wyłącznie akcesoriów do bindowania, zgodności systemu, pasków, otworów, pojemności, montażu, edycji i kontroli oprawy.
