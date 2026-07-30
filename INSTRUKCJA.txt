@@ -1,11 +1,11 @@
-PAKIET 86A – OKŁADKI DO TERMOBINDOWNIC
+PAKIET 87A – TERMOBINDOWNICE
 
 Zawartość:
-- 16 stron wojewódzkich działu Okładki do termobindownic
+- 16 stron wojewódzkich działu Termobindownice
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 86B i 86C wgraj po paczce 86A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 86C.
-Treść dotyczy wyłącznie okładek termicznych A4, szerokości grzbietu, materiału, koloru, liczebności opakowania, zgodności z termobindownicą, przygotowania kartek, grzania, kleju, studzenia, kontroli i magazynowania.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 87B i 87C wgraj po paczce 87A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 87C.
+Treść dotyczy wyłącznie termobindownic A4, pojemności, nagrzewania, sygnalizacji, termookładek, wkładania dokumentu, chłodzenia, kontroli oprawy, bezpieczeństwa, czyszczenia i magazynowania urządzenia.
