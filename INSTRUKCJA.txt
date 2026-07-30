@@ -1,10 +1,10 @@
-PAKIET 94 – KOSZE BIUROWE
+PAKIET 96 – KRZESŁA OBROTOWE
 
 1. Rozpakuj paczkę w katalogu głównym projektu Cloudflare Pages.
 2. Zachowaj strukturę katalogów.
-3. Pakiet 94A zawiera assets/style.css i logo. Pakiety 94B i 94C zawierają kolejne strony.
-4. Pakiet 94C zawiera zaktualizowany sitemap.xml.
+3. Pakiet 96A zawiera assets/style.css i logo. Pakiety 96B i 96C zawierają kolejne strony.
+4. Pakiet 96C zawiera zaktualizowany sitemap.xml.
 5. Po wdrożeniu sprawdź losowo stronę województwa i miasta na komputerze oraz telefonie.
 
-Nowy dział: Kosze biurowe
+Nowy dział: Krzesła obrotowe
 Data modyfikacji: 2026-07-30
