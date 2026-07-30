@@ -1,7 +1,7 @@
-PAKIET 100A – PODNÓŻKI I PODPÓRKI – 16 WOJEWÓDZTW
+PAKIET 104A – SEJFY – 16 WOJEWÓDZTW
 
 Zawartość:
-- 16 nowych stron kategorii Podnóżki i podpórki
+- 16 nowych stron kategorii Sejfy
 - 16 zaktualizowanych stron województw
 - assets/style.css
 - assets/logo-eazbiuro.png
