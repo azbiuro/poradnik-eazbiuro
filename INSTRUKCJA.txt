@@ -1,10 +1,10 @@
-PAKIET 96 – KRZESŁA OBROTOWE
+PAKIET 97 – LAMPKI NA BIURKO
 
 1. Rozpakuj paczkę w katalogu głównym projektu Cloudflare Pages.
 2. Zachowaj strukturę katalogów.
-3. Pakiet 96A zawiera assets/style.css i logo. Pakiety 96B i 96C zawierają kolejne strony.
-4. Pakiet 96C zawiera zaktualizowany sitemap.xml.
+3. Pakiet 97A zawiera assets/style.css i logo. Pakiety 97B i 97C zawierają kolejne strony.
+4. Pakiet 97C zawiera zaktualizowany sitemap.xml.
 5. Po wdrożeniu sprawdź losowo stronę województwa i miasta na komputerze oraz telefonie.
 
-Nowy dział: Krzesła obrotowe
+Nowy dział: Lampki na biurko
 Data modyfikacji: 2026-07-30
