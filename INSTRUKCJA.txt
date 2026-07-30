@@ -1,11 +1,11 @@
-PAKIET 89A – BIURKA
+PAKIET 90A – DRABINY I REGAŁY
 
 Zawartość:
-- 16 stron wojewódzkich działu Biurka
+- 16 stron wojewódzkich działu Drabiny, regały
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 89B i 89C wgraj po paczce 89A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 89C.
-Treść dotyczy wyłącznie doboru, ustawienia, montażu, użytkowania i kontroli biurek.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 90B i 90C wgraj po paczce 90A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 90C.
+Treść dotyczy wyłącznie wyboru, ustawienia, montażu, użytkowania, kontroli i przechowywania drabin oraz regałów.
