@@ -1,11 +1,11 @@
-PAKIET 80A – BINDOWNICE
+PAKIET 81A – FOLIE LAMINACYJNE
 
 Zawartość:
-- 16 stron wojewódzkich działu Bindownice
+- 16 stron wojewódzkich działu Folie laminacyjne
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 80B i 80C wgraj po paczce 80A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 80C.
-Treść dotyczy wyłącznie bindownic, metod oprawy, formatu, dziurkowania, pojemności, grzbietów, okładek, ergonomii, bezpieczeństwa, konserwacji i kontroli dokumentów.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 81B i 81C wgraj po paczce 81A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 81C.
+Treść dotyczy wyłącznie folii laminacyjnych, formatów, grubości, powierzchni, zgodności z laminatorem, przygotowania dokumentu, podawania, zgrzewu, kontroli, bezpieczeństwa i magazynowania.
