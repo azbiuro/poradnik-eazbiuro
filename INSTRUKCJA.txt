@@ -1,11 +1,11 @@
-PAKIET 84A – LAMINATORY
+PAKIET 85A – OKŁADKI DO BINDOWNIC
 
 Zawartość:
-- 16 stron wojewódzkich działu Laminatory
+- 16 stron wojewódzkich działu Okładki do bindownic
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 84B i 84C wgraj po paczce 84A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 84C.
-Treść dotyczy wyłącznie laminatorów, formatów A4 i A3, folii, trybu, wałków, nagrzewania, prędkości, podawania, zgrzewu, zacięć, bezpieczeństwa, konserwacji i magazynowania.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 85B i 85C wgraj po paczce 85A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 85C.
+Treść dotyczy wyłącznie okładek do bindownic, formatów, folii PCV, kartonu Chromolux, faktury, koloru, przodu i tyłu, zgodności z grzbietem, perforacji, montażu, kontroli oraz magazynowania.
