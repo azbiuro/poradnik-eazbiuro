@@ -1,21 +1,22 @@
-PORADNIK A-Z BIURO – WERSJA PO PEŁNYM AUDYCIE SEO I UX
+PAKIET – STRONA GŁÓWNA PORADNIK.EAZBIURO.PL – 52 DZIAŁY
+
+ZAWARTOŚĆ:
+- index.html – zaktualizowana strona główna,
+- 46 nowych katalogów działów z plikiem index.html,
+- INSTRUKCJA_WGRANIA.txt.
+
+SPOSÓB WGRANIA:
+1. Rozpakuj ZIP na komputerze.
+2. Otwórz rozpakowany katalog i zaznacz całą jego zawartość: plik index.html, 46 katalogów działów oraz instrukcję.
+3. Wgraj zaznaczoną zawartość bezpośrednio do głównego katalogu repozytorium GitHub – tak jak w poprzednich paczkach.
+4. Zgódź się na zastąpienie wyłącznie istniejącego pliku index.html.
+5. Nie usuwaj istniejących katalogów, assets, robots.txt, sitemap.xml ani _redirects.
+6. Paczka celowo nie zawiera assets/style.css – korzysta z aktualnego stylu działającej strony i nie nadpisuje późniejszych poprawek.
+7. Po wdrożeniu poczekaj na zakończenie publikacji Cloudflare Pages i odśwież stronę skrótem Ctrl+F5.
 
 WAŻNE:
-1. Nie wgrywaj plików ZIP bezpośrednio do GitHuba.
-2. Każdy ZIP najpierw rozpakuj na komputerze.
-3. Wgrywaj zawartość paczek kolejno 01–07 do głównego katalogu repozytorium.
-4. Zgódź się na zastąpienie istniejących plików.
-5. Paczka 01 zawiera nowy assets/style.css z Open Sans oraz kolory A-Z Biuro.
-6. Po każdej paczce poczekaj na zakończenie wdrożenia Cloudflare Pages.
-7. Plik sitemap.xml zawiera 135 adresów index,follow. 132 strony lokalne pozostają celowo noindex,follow.
-
-KOLEJNOŚĆ:
-01 – pliki główne, CSS i katalogi lokalne
-02 – artykuły biurowe i papier
-03 – tonery i chemia profesjonalna
-04 – artykuły higieniczne i HoReCa
-05 – 16 województw
-06 – miasta 1–25
-07 – miasta 26–50
-
-Nie usuwaj pliku _redirects, robots.txt ani sitemap.xml.
+- paczka zawiera łącznie 48 plików, czyli mniej niż limit 90 plików na jedno wgranie,
+- licznik na stronie głównej wynosi 52 główne działy,
+- „Lokalne produkty” są ostatnią kartą i nie są wliczone do liczby 52,
+- 46 nowych stron ma noindex,follow do czasu opublikowania pełnych poradników,
+- sitemap.xml nie jest zmieniany, ponieważ nowych stron tymczasowych nie należy jeszcze indeksować.
