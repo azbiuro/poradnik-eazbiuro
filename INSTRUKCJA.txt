@@ -1,11 +1,11 @@
-PAKIET 82A – GILOTYNY I TRYMERY
+PAKIET 83A – GRZBIETY DO BINDOWANIA
 
 Zawartość:
-- 16 stron wojewódzkich działu Gilotyny i trymery
+- 16 stron wojewódzkich działu Grzbiety do bindownicy
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 82B i 82C wgraj po paczce 82A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 82C.
-Treść dotyczy wyłącznie gilotyn i trymerów, mechanizmu, formatu, długości i wydajności cięcia, docisku, prowadnicy, ostrza, bezpieczeństwa, jakości krawędzi oraz konserwacji.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 83B i 83C wgraj po paczce 83A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 83C.
+Treść dotyczy wyłącznie grzbietów do bindowania, zgodności z bindownicą, typu, formatu, rozmiaru, pojemności, perforacji, okładek, montażu, edycji, kontroli i magazynowania.
