@@ -1,11 +1,11 @@
-PAKIET 87A – TERMOBINDOWNICE
+PAKIET 88A – APTECZKI
 
 Zawartość:
-- 16 stron wojewódzkich działu Termobindownice
+- 16 stron wojewódzkich działu Apteczki
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 87B i 87C wgraj po paczce 87A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 87C.
-Treść dotyczy wyłącznie termobindownic A4, pojemności, nagrzewania, sygnalizacji, termookładek, wkładania dokumentu, chłodzenia, kontroli oprawy, bezpieczeństwa, czyszczenia i magazynowania urządzenia.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 88B i 88C wgraj po paczce 88A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 88C.
+Treść dotyczy wyłącznie wyboru, oznaczenia, rozmieszczenia, kontroli i uzupełniania apteczek.
