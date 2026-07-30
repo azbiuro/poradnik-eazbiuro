@@ -1,11 +1,11 @@
-PAKIET 79A – AKCESORIA DO BINDOWANIA
+PAKIET 80A – BINDOWNICE
 
 Zawartość:
-- 16 stron wojewódzkich działu Akcesoria do bindowania
+- 16 stron wojewódzkich działu Bindownice
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 79B i 79C wgraj po paczce 79A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 79C.
-Treść dotyczy wyłącznie akcesoriów do bindowania, zgodności systemu, pasków, otworów, pojemności, montażu, edycji i kontroli oprawy.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 80B i 80C wgraj po paczce 80A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 80C.
+Treść dotyczy wyłącznie bindownic, metod oprawy, formatu, dziurkowania, pojemności, grzbietów, okładek, ergonomii, bezpieczeństwa, konserwacji i kontroli dokumentów.
