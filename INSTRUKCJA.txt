@@ -1,11 +1,11 @@
-PAKIET 83A – GRZBIETY DO BINDOWANIA
+PAKIET 84A – LAMINATORY
 
 Zawartość:
-- 16 stron wojewódzkich działu Grzbiety do bindownicy
+- 16 stron wojewódzkich działu Laminatory
 - 16 zaktualizowanych stron głównych województw
 - assets/style.css
 - assets/logo-eazbiuro.png
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 83B i 83C wgraj po paczce 83A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 83C.
-Treść dotyczy wyłącznie grzbietów do bindowania, zgodności z bindownicą, typu, formatu, rozmiaru, pojemności, perforacji, okładek, montażu, edycji, kontroli i magazynowania.
+Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 84B i 84C wgraj po paczce 84A.
+Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 84C.
+Treść dotyczy wyłącznie laminatorów, formatów A4 i A3, folii, trybu, wałków, nagrzewania, prędkości, podawania, zgrzewu, zacięć, bezpieczeństwa, konserwacji i magazynowania.
