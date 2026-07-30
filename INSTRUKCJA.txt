@@ -1,11 +1,10 @@
-PAKIET 90A – DRABINY I REGAŁY
+PAKIET 92 – FOTELE BIUROWE
 
-Zawartość:
-- 16 stron wojewódzkich działu Drabiny, regały
-- 16 zaktualizowanych stron głównych województw
-- assets/style.css
-- assets/logo-eazbiuro.png
+1. Rozpakuj paczkę w katalogu głównym projektu Cloudflare Pages.
+2. Zachowaj strukturę katalogów.
+3. Pakiet 92A zawiera assets/style.css i logo. Pakiety 92B i 92C zawierają kolejne strony.
+4. Pakiet 92C zawiera zaktualizowany sitemap.xml.
+5. Po wdrożeniu sprawdź losowo stronę województwa i miasta na komputerze oraz telefonie.
 
-Wgrywanie: zachowaj pełną strukturę katalogów. Paczki 90B i 90C wgraj po paczce 90A.
-Nie usuwaj istniejących plików. Sitemap znajduje się w paczce 90C.
-Treść dotyczy wyłącznie wyboru, ustawienia, montażu, użytkowania, kontroli i przechowywania drabin oraz regałów.
+Nowy dział: Fotele biurowe
+Data modyfikacji: 2026-07-30
