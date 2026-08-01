@@ -1,0 +1,42 @@
+RAPORT KONTROLI — PRZEBUDOWA PORADNIK.EAZBIURO.PL
+Data: 1 sierpnia 2026
+
+ZAŁOŻENIA
+- wspólny wygląd z wiedza.eazbiuro.pl,
+- logo A-Z Biuro w nagłówku i stopce,
+- napis przy logo: Poradnik zakupowy,
+- Open Sans,
+- wspólny styl menu,
+- biała stopka,
+- responsywność desktop / tablet / telefon.
+
+TESTY AUTOMATYCZNE
+1. Zestaw strony głównej i działów: 49 plików HTML.
+2. Zestaw najnowszych stron lokalnych: 32 pliki HTML.
+3. Łącznie sprawdzono testowo: 81 plików HTML.
+4. Obsłużone warianty wejściowe:
+   - navbar z logo i podpisem,
+   - navbar tylko z logo,
+   - header-inner z uproszczonym menu,
+   - pełna stopka,
+   - minimalna stopka site-footer.
+5. Wynik ujednolicenia nagłówka: 81/81.
+6. Wynik ujednolicenia stopki: 81/81.
+7. Wynik dodania mobilnego menu: 81/81.
+8. Zachowanie title, meta description, canonical i H1: 81/81 bez zmian.
+9. Ponowne uruchomienie skryptu nie powoduje kolejnych zmian: TAK.
+10. Składnia Python: poprawna.
+11. Składnia YAML workflow: poprawna.
+12. Bilans nawiasów CSS: poprawny.
+
+BEZPIECZEŃSTWO WDROŻENIA
+- workflow przed zmianą tworzy tag zapasowy backup-przed-przebudowa-...,
+- nie zmienia sitemap.xml, robots.txt, adresów folderów ani treści artykułów,
+- przed zapisaniem kontroluje wszystkie pliki HTML w rzeczywistym repozytorium,
+- jeżeli choć jeden plik nie otrzyma wspólnego nagłówka i stopki, zadanie zatrzyma się
+  bez zapisania przebudowy.
+
+UWAGA
+Test przeprowadzono na dostępnych, aktualnych paczkach reprezentujących wszystkie
+występujące warianty szablonu. Ostateczna kontrola całego serwisu zostanie wykonana
+automatycznie przez GitHub Actions we właściwym repozytorium przed zatwierdzeniem zmian.

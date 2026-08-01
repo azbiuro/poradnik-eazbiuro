@@ -1,30 +1,42 @@
-PAKIET FINALNY STRONY GŁÓWNEJ – 54 DZIAŁY I 1134 PORADNIKI
+PORADNIK.EAZBIURO.PL — WSPÓLNY WYGLĄD Z WIEDZA.EAZBIURO.PL
 
-SPOSÓB WGRANIA:
-1. Rozpakuj plik ZIP na komputerze.
-2. Zaznacz całą zawartość po rozpakowaniu.
-3. Wgraj zawartość bezpośrednio do głównego katalogu repozytorium GitHub.
-4. Zgódź się na zastąpienie istniejącego pliku index.html oraz wskazanych plików i katalogów.
-5. Paczka nie zawiera globalnego assets/style.css i go nie nadpisuje.
-6. Poczekaj na zakończenie wdrożenia Cloudflare Pages.
-7. Po wdrożeniu wykonaj twarde odświeżenie przeglądarki: Ctrl+F5 lub Cmd+Shift+R.
+ZAKRES ZMIAN
+- wspólne logo A-Z Biuro w nagłówku i stopce,
+- napis przy logo: „Poradnik zakupowy”,
+- identyczna rodzina czcionek Open Sans,
+- menu w tym samym stylu i układzie,
+- biała, czterokolumnowa stopka,
+- pełna responsywność na komputerze, tablecie i telefonie,
+- zachowanie treści artykułów, adresów URL, title, meta description,
+  canonical, robots, JSON-LD i sitemap.xml.
 
-PAKIET ZAWIERA:
-- poprawiony index.html,
-- 48 nowych stron startowych działów,
-- po 21 propozycji „Poradnik planowany” na każdej nowej stronie,
-- assets/logo-eazbiuro.png,
-- assets/homepage-sections.css.
+NAJPROSTSZE WGRANIE PRZEZ GITHUB
+1. Rozpakuj tę paczkę na komputerze.
+2. Otwórz GŁÓWNY KATALOG repozytorium poradnik.eazbiuro.pl.
+3. Wybierz Add file > Upload files.
+4. Przeciągnij całą ZAWARTOŚĆ rozpakowanej paczki, łącznie z folderami:
+   .github, assets i tools.
+   Na komputerze Mac folder .github może być ukryty — naciśnij Command + Shift + kropka,
+   aby go wyświetlić przed zaznaczeniem plików.
+5. Zatwierdź Commit changes.
+6. GitHub Actions automatycznie:
+   - utworzy tag zapasowy „backup-przed-przebudowa-...”,
+   - przebuduje wszystkie pliki HTML,
+   - skontroluje kompletność,
+   - zapisze zmiany w repozytorium.
+7. W zakładce Actions sprawdź, czy zadanie „Przebuduj wygląd poradnika”
+   zakończyło się zielonym znakiem.
 
-LICZNIKI:
-- 54 główne działy,
-- 6 grup po 9 działów,
-- 1134 poradniki (54 × 21),
-- karta „Lokalne produkty” jest ostatnia i nie jest wliczana do 54 działów.
+WAŻNE
+Jeżeli GitHub zgłosi brak prawa do zapisu:
+Settings > Actions > General > Workflow permissions > Read and write permissions > Save,
+a następnie Actions > Przebuduj wygląd poradnika > Run workflow.
 
-KONTROLA:
-- nieaktualny licznik nie występuje w żadnym pliku paczki,
-- wszystkie 54 karty głównych działów są w całości klikalne,
-- wszystkie 54 piktogramy działów są unikatowe,
-- logo znajduje się na stronie głównej,
-- zastosowano kolory #cd0000, #105fa6, #7b848d oraz rgba(242,70,12,0.85).
+WGRANIE LOKALNE
+Po skopiowaniu tej zawartości do pobranego repozytorium można uruchomić:
+- Windows: URUCHOM_LOKALNIE_WINDOWS.bat
+- macOS: URUCHOM_LOKALNIE_MAC.command
+
+PUNKT PRZYWRACANIA
+Automatyczna wersja GitHub tworzy tag z pełnym stanem strony sprzed zmian.
+Nie usuwa żadnego artykułu ani katalogu.
