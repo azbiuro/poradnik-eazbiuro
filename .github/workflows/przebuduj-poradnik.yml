@@ -1,0 +1,69 @@
+name: Przebuduj wygląd poradnika
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/przebuduj-poradnik.yml"
+      - "tools/przebuduj_poradnik.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: przebudowa-poradnika
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Utwórz punkt przywracania
+        shell: bash
+        run: |
+          BACKUP_TAG="backup-przed-przebudowa-${GITHUB_RUN_ID}"
+          git tag "$BACKUP_TAG"
+          git push origin "$BACKUP_TAG"
+          echo "Utworzono punkt przywracania: $BACKUP_TAG"
+
+      - name: Ujednolić nagłówek, menu i stopkę
+        run: python3 tools/przebuduj_poradnik.py --root .
+
+      - name: Kontrola wyniku
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import sys
+          files=list(Path('.').rglob('*.html'))
+          bad=[]
+          for p in files:
+              if '.git' in p.parts:
+                  continue
+              s=p.read_text(encoding='utf-8',errors='ignore')
+              if 'class="site-header az-header"' not in s or 'class="footer az-footer"' not in s:
+                  bad.append(str(p))
+          print(f"Skontrolowano: {len(files)} plików HTML")
+          print(f"Pliki bez wspólnego nagłówka lub stopki: {len(bad)}")
+          if bad:
+              print('\n'.join(bad[:50]))
+              sys.exit(1)
+          PY
+
+      - name: Zapisz przebudowę w repozytorium
+        shell: bash
+        run: |
+          git config user.name "A-Z Biuro Automation"
+          git config user.email "azbiuro.pl@gmail.com"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "Brak zmian do zapisania."
+            exit 0
+          fi
+          git commit -m "Ujednolicenie wyglądu poradnik.eazbiuro.pl"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
