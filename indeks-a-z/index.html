@@ -5,7 +5,7 @@
 <meta name="description" content="Indeks A-Z poradników zakupowych A-Z Biuro jest w przygotowaniu. Skorzystaj z wyszukiwarki, listy działów i polecanych materiałów.">
 <meta name="robots" content="noindex,follow">
 <link rel="canonical" href="https://poradnik.eazbiuro.pl/indeks-a-z/">
-<link rel="stylesheet" href="/assets/style.css?v=20260801-menu-search-v4">
+<link rel="stylesheet" href="/assets/style.css?v=20260801-menu-search-v5">
 </head><body><a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header>
   <div class="container az-header-inner">
@@ -98,7 +98,7 @@
     if(backdrop){backdrop.addEventListener('click',closeMenu);}
     nav.addEventListener('click',function(event){if(event.target.closest('a')){closeMenu();}});
     document.addEventListener('keydown',function(event){if(event.key==='Escape'){closeMenu();}});
-    window.addEventListener('resize',function(){if(window.innerWidth>1450){closeMenu();}});
+    window.addEventListener('resize',function(){if(window.innerWidth>1100){closeMenu();}});
     window.addEventListener('scroll',function(){header.classList.toggle('is-scrolled',window.scrollY>8);},{passive:true});
   }
   document.querySelectorAll('[data-year]').forEach(function(node){node.textContent=String(new Date().getFullYear());});

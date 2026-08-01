@@ -8,7 +8,7 @@
 <link href="https://poradnik.eazbiuro.pl/lokalne-produkty/miasta/gdynia/profesjonalna-chemia/" rel="canonical"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="/assets/style.css?v=20260801-menu-search-v4" rel="stylesheet"/>
+<link href="/assets/style.css?v=20260801-menu-search-v5" rel="stylesheet"/>
 <meta content="pl_PL" property="og:locale"/>
 <meta content="article" property="og:type"/>
 <meta content="Poradnik A-Z Biuro" property="og:site_name"/>
@@ -112,7 +112,7 @@
     if(backdrop){backdrop.addEventListener('click',closeMenu);}
     nav.addEventListener('click',function(event){if(event.target.closest('a')){closeMenu();}});
     document.addEventListener('keydown',function(event){if(event.key==='Escape'){closeMenu();}});
-    window.addEventListener('resize',function(){if(window.innerWidth>1450){closeMenu();}});
+    window.addEventListener('resize',function(){if(window.innerWidth>1100){closeMenu();}});
     window.addEventListener('scroll',function(){header.classList.toggle('is-scrolled',window.scrollY>8);},{passive:true});
   }
   document.querySelectorAll('[data-year]').forEach(function(node){node.textContent=String(new Date().getFullYear());});

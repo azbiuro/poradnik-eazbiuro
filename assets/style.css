@@ -203,7 +203,7 @@ html,body,button,input,select,textarea{font-family:"Open Sans",Arial,Helvetica,s
   .az-header .az-nav .az-nav-cta{width:190px;height:60px;min-height:60px;font-size:16px}
 }
 
-@media (max-width:1450px){
+@media (max-width:1100px){
   .az-header .az-header-inner{width:min(calc(100% - 28px),1180px);height:78px;gap:14px}
   .az-header .az-brand-logo{width:190px}
   .az-header .az-brand-divider{height:32px;margin:0 10px}
@@ -265,27 +265,40 @@ html,body,button,input,select,textarea{font-family:"Open Sans",Arial,Helvetica,s
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .az-header .az-nav .az-nav-knowledge{color:#105fa6}
 .az-header .az-nav .az-nav-knowledge:hover,.az-header .az-nav .az-nav-knowledge:focus-visible{color:#cd0000}
-.poradnik-search-section{padding:44px 0 20px;background:linear-gradient(135deg,#fff 0%,#f4f8fc 58%,#fff4f4 100%)}
-.poradnik-search-card{max-width:980px;margin:auto;padding:34px clamp(22px,4vw,48px);background:#fff;border:1px solid #dfe4e8;border-radius:24px;box-shadow:0 18px 48px rgba(22,34,51,.08)}
-.poradnik-search-card h2{margin:.15em 0 .3em}
-.poradnik-search-card>p{color:#5f6b76;margin-top:0}
-.poradnik-search-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}
-.poradnik-search-row input{min-width:0;min-height:58px;padding:14px 18px;border:2px solid #dfe4e8;border-radius:10px;background:#fff;color:#1f2937;font:inherit}
-.poradnik-search-row input:focus{border-color:#105fa6;outline:0;box-shadow:0 0 0 4px rgba(16,95,166,.12)}
-.poradnik-search-row button{min-height:58px;padding:13px 27px;border:0;border-radius:10px;background:#cd0000;color:#fff;font:inherit;font-weight:800;cursor:pointer}
+.poradnik-hero-search{position:relative;z-index:4;max-width:760px;margin:30px 0 0}
+.poradnik-search-row{display:grid;grid-template-columns:54px minmax(0,1fr) auto;align-items:center;min-height:74px;padding:7px 9px 7px 12px;background:#fff;border:1px solid #d7e0e8;border-radius:17px;box-shadow:0 16px 38px rgba(22,34,51,.08)}
+.poradnik-search-icon{display:grid;place-items:center;color:#7b848d;font-size:2rem;line-height:1}
+.poradnik-search-row input{width:100%;min-width:0;min-height:56px;padding:10px 8px;border:0;background:transparent;color:#1f2937;font:inherit;font-size:1.04rem;outline:0}
+.poradnik-search-row input::placeholder{color:#7b848d}
+.poradnik-search-row:focus-within{border-color:#105fa6;box-shadow:0 0 0 4px rgba(16,95,166,.10),0 16px 38px rgba(22,34,51,.08)}
+.poradnik-search-row button{min-width:136px;min-height:58px;padding:13px 24px;border:0;border-radius:12px;background:#cd0000;color:#fff;font:inherit;font-weight:800;cursor:pointer}
 .poradnik-search-row button:hover,.poradnik-search-row button:focus-visible{background:#a90000}
-.poradnik-search-help,.poradnik-search-status{display:block;margin-top:9px;color:#7b848d;font-size:.84rem}
+.poradnik-search-help,.poradnik-search-status{display:block;margin:10px 5px 0;color:#7b848d;font-size:.84rem}
 .poradnik-search-status{min-height:1.4em;font-weight:700}
-.poradnik-search-results{margin-top:12px;border:1px solid #dfe4e8;border-radius:14px;background:#fff;overflow:hidden}
-.poradnik-search-results ul{list-style:none;margin:0;padding:0}
+.poradnik-search-results{position:absolute;left:0;right:0;top:100%;z-index:20;margin-top:10px;border:1px solid #dfe4e8;border-radius:14px;background:#fff;box-shadow:0 18px 48px rgba(22,34,51,.14);overflow:hidden}
+.poradnik-search-results ul{max-height:420px;overflow-y:auto;list-style:none;margin:0;padding:0}
 .poradnik-search-results li+li{border-top:1px solid #dfe4e8}
 .poradnik-search-results a{display:flex;flex-direction:column;gap:3px;padding:14px 17px;color:#1f2937;text-decoration:none}
 .poradnik-search-results a:hover,.poradnik-search-results a:focus-visible{background:#f1f7fc;color:#cd0000}
 .poradnik-search-results a span{color:#5f6b76;font-size:.86rem;font-weight:400}
 .poradnik-search-empty{margin:0;padding:17px;color:#5f6b76}
-.coming-soon-shell{padding:38px 0 76px}
-.coming-soon-card{max-width:860px;margin:auto;padding:clamp(28px,5vw,54px);background:#fff;border:1px solid #dfe4e8;border-radius:22px;box-shadow:0 18px 48px rgba(22,34,51,.08);text-align:center}
-.coming-soon-card h1{font-size:clamp(2rem,4vw,3.4rem);margin:.3em auto}
-.coming-soon-card p{max-width:680px;margin:0 auto 24px;color:#5f6b76}
-@media(max-width:620px){.poradnik-search-section{padding:24px 0 8px}.poradnik-search-card{padding:24px 18px}.poradnik-search-row{grid-template-columns:1fr}.poradnik-search-row button{width:100%}}
+@media (min-width:1101px) and (max-width:1750px){
+  .az-header .az-header-inner{width:calc(100% - 40px);height:100px;gap:12px}
+  .az-header .az-brand-logo{width:195px}
+  .az-header .az-brand-divider{height:38px;margin:0 10px}
+  .az-header .az-brand-label{font-size:16px}
+  .az-header .az-nav{gap:13px}
+  .az-header .az-nav>a{font-size:13.5px}
+  .az-header .az-nav .az-nav-cta{width:165px;height:54px;min-height:54px;padding:10px 14px;font-size:14px}
+}
+@media(max-width:760px){
+  .poradnik-hero-search{margin-top:24px}
+  .poradnik-search-row{grid-template-columns:42px minmax(0,1fr);padding:7px 9px}
+  .poradnik-search-row button{grid-column:1/-1;width:100%;min-height:52px}
+  .poradnik-search-icon{font-size:1.65rem}
+}
+@media(max-width:420px){
+  .poradnik-search-row{grid-template-columns:34px minmax(0,1fr)}
+  .poradnik-search-row input{font-size:.94rem}
+}
 /* AZ-SEARCH-END */
