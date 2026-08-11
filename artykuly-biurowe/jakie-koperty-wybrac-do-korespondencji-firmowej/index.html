@@ -63,12 +63,12 @@
     .eaz-polecamy-note{max-width:920px;margin:0 auto 24px;text-align:center;color:#555;line-height:1.6}
     .eaz-polecamy-group{margin:30px 0 34px;padding:20px;border:1px solid #e8e8e8;border-radius:6px;background:#fafafa}
     .eaz-polecamy-subheading{margin:0 0 16px;padding:0 0 10px;border-bottom:3px solid #cd0000;color:#222;font-size:20px;line-height:1.3}
-    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-bottom:8px}
+    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-bottom:8px}
     .eaz-polecamy-card{display:flex;flex-direction:column;min-height:100%;padding:18px;border:1px solid #e4e4e4;border-radius:6px;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.08);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
     .eaz-polecamy-card:hover{transform:translateY(-4px);border-color:#cd0000;box-shadow:0 12px 28px rgba(0,0,0,.13)}
     .eaz-polecamy-image-link{display:flex;align-items:center;justify-content:center;height:210px;background:#fff;text-decoration:none}
     .eaz-polecamy-image{max-width:90%;max-height:190px;object-fit:contain}
-    .eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+    .eaz-polecamy-name-heading{margin:0}.eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
     .eaz-polecamy-name:hover{color:#cd0000}
     .eaz-polecamy-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:190px;margin:auto auto 0;padding:11px 22px;border:2px solid #cd0000;border-radius:4px;background:#cd0000;color:#fff;text-align:center;text-decoration:none;font-size:15px;font-weight:700;transition:transform .2s ease,background .2s ease,color .2s ease}
     .eaz-polecamy-button:hover{transform:translateY(-1px);background:#fff;color:#000}
@@ -76,90 +76,74 @@
     @media(max-width:767px){.eaz-polecamy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.eaz-polecamy-heading{font-size:24px}}
     @media(max-width:519px){.eaz-polecamy-grid{grid-template-columns:1fr}.eaz-polecamy-image-link{height:200px}}
   </style>
-  <h2 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h2>
+  <h3 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h3>
   <span class="eaz-polecamy-heading-line" aria-hidden="true"></span>
   <p class="eaz-polecamy-note">Produkty dobrano według zastosowania: codzienna poczta biurowa, dokumenty nieskładane, grubsze komplety, przesyłki ochronne i korespondencja kurierska.</p>
   <section class="eaz-polecamy-group" aria-label="Koperty do codziennej korespondencji"><h3 class="eaz-polecamy-subheading">Koperty do codziennej korespondencji</h3><div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/37131,koperta-dl-biala-samoprzylepna-25-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/1119f46e-5386-4268-9f7b-e6ddc9fb8f0e.png" alt="Koperta DL biała samoprzylepny /25szt/" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37131,koperta-dl-biala-samoprzylepna-25-sztuk" title="Koperta DL biała samoprzylepny /25szt/">Koperta DL biała samoprzylepny /25szt/</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37131,koperta-dl-biala-samoprzylepna-25-sztuk" title="Koperta DL biała samoprzylepny /25szt/">Koperta DL biała samoprzylepny /25szt/</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/37131,koperta-dl-biala-samoprzylepna-25-sztuk" aria-label="Zobacz produkt: Koperta DL biała samoprzylepny /25szt/">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/37116,koperta-c6-biala-samoprzylepna-25-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/0e9ecbe0-5830-4a6b-9f4a-b9c7d8c6d97f.png" alt="Koperta C6 biała samoprzylepny /25szt/" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37116,koperta-c6-biala-samoprzylepna-25-sztuk" title="Koperta C6 biała samoprzylepny /25szt/">Koperta C6 biała samoprzylepny /25szt/</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37116,koperta-c6-biala-samoprzylepna-25-sztuk" title="Koperta C6 biała samoprzylepny /25szt/">Koperta C6 biała samoprzylepny /25szt/</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/37116,koperta-c6-biala-samoprzylepna-25-sztuk" aria-label="Zobacz produkt: Koperta C6 biała samoprzylepny /25szt/">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/37103,koperta-c5-biala-samoprzylepna-25-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/69466c7d-2464-4c1b-8f38-f15af7dedfda.png" alt="Koperta C5 biała samoprzylepny  /25szt/" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37103,koperta-c5-biala-samoprzylepna-25-sztuk" title="Koperta C5 biała samoprzylepny  /25szt/">Koperta C5 biała samoprzylepny  /25szt/</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37103,koperta-c5-biala-samoprzylepna-25-sztuk" title="Koperta C5 biała samoprzylepny  /25szt/">Koperta C5 biała samoprzylepny  /25szt/</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/37103,koperta-c5-biala-samoprzylepna-25-sztuk" aria-label="Zobacz produkt: Koperta C5 biała samoprzylepny  /25szt/">Zobacz produkt</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/37089,koperta-c4-biala-samoprzylepna-25-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/957c843e-4bf3-4503-8364-288de27ee0f5.png" alt="Koperta C4 biała samoprz./25szt/" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/37089,koperta-c4-biala-samoprzylepna-25-sztuk" title="Koperta C4 biała samoprz./25szt/">Koperta C4 biała samoprz./25szt/</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/37089,koperta-c4-biala-samoprzylepna-25-sztuk" aria-label="Zobacz produkt: Koperta C4 biała samoprz./25szt/">Zobacz produkt</a>
-      </article></div></section><section class="eaz-polecamy-group" aria-label="Koperty rozszerzane do grubszych dokumentów"><h3 class="eaz-polecamy-subheading">Koperty rozszerzane do grubszych dokumentów</h3><div class="eaz-polecamy-grid">
+      </div></section><section class="eaz-polecamy-group" aria-label="Koperty rozszerzane do grubszych dokumentów"><h3 class="eaz-polecamy-subheading">Koperty rozszerzane do grubszych dokumentów</h3><div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/2049,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-b4-hk-brazowe-250x353x38-mm"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/30215025-f588-4a33-a0e9-1ecbd5386c39.jpg" alt="Koperta papier off B4 rbd braz.hk 250x353x38" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/2049,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-b4-hk-brazowe-250x353x38-mm" title="Koperta papier off B4 rbd braz.hk 250x353x38">Koperta papier off B4 rbd braz.hk 250x353x38</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/2049,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-b4-hk-brazowe-250x353x38-mm" title="Koperta papier off B4 rbd braz.hk 250x353x38">Koperta papier off B4 rbd braz.hk 250x353x38</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/2049,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-b4-hk-brazowe-250x353x38-mm" aria-label="Zobacz produkt: Koperta papier off B4 rbd braz.hk 250x353x38">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/31184,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-biale-229x324x38-mm"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/1bf741cf-e789-42d3-a22b-f1cc46514617.jpg" alt="Koperta papier off C4 rdb biała hk 229x324x38 A402" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/31184,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-biale-229x324x38-mm" title="Koperta papier off C4 rdb biała hk 229x324x38 A402">Koperta papier off C4 rdb biała hk 229x324x38 A402</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/31184,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-biale-229x324x38-mm" title="Koperta papier off C4 rdb biała hk 229x324x38 A402">Koperta papier off C4 rdb biała hk 229x324x38 A402</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/31184,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-biale-229x324x38-mm" aria-label="Zobacz produkt: Koperta papier off C4 rdb biała hk 229x324x38 A402">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/2046,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-brazowe-229x324x38-mm"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/9b4e47d4-2a9d-40d6-af3e-4ac91220b197.jpg" alt="Koperta papier off C4 rbd brąz hk 229x324x38" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/2046,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-brazowe-229x324x38-mm" title="Koperta papier off C4 rbd brąz hk 229x324x38">Koperta papier off C4 rbd brąz hk 229x324x38</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/2046,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-brazowe-229x324x38-mm" title="Koperta papier off C4 rbd brąz hk 229x324x38">Koperta papier off C4 rbd brąz hk 229x324x38</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/2046,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c4-hk-brazowe-229x324x38-mm" aria-label="Zobacz produkt: Koperta papier off C4 rbd brąz hk 229x324x38">Zobacz produkt</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/27269,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c5-hk-brazowe-162x229x32-mm"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/8cc96353-02cb-4701-9a08-7a21613cf6b2.jpg" alt="Koperta papier off C5 rbd brąz 162x229x32" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/27269,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c5-hk-brazowe-162x229x32-mm" title="Koperta papier off C5 rbd brąz 162x229x32">Koperta papier off C5 rbd brąz 162x229x32</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/27269,koperty-z-rozszerzanymi-bokami-i-dnem-rbd-c5-hk-brazowe-162x229x32-mm" aria-label="Zobacz produkt: Koperta papier off C5 rbd brąz 162x229x32">Zobacz produkt</a>
-      </article></div></section><section class="eaz-polecamy-group" aria-label="Koperty bezpieczne i ochronne"><h3 class="eaz-polecamy-subheading">Koperty bezpieczne i ochronne</h3><div class="eaz-polecamy-grid">
+      </div></section><section class="eaz-polecamy-group" aria-label="Koperty bezpieczne i ochronne"><h3 class="eaz-polecamy-subheading">Koperty bezpieczne i ochronne</h3><div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/32960,koperty-bezpieczne-superpak-safe-transparentne-b-5-190x260mm-50-szt"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/2a530637-40aa-40fc-9a71-5f0eafeb2786.png" alt="Koperta -bezpieczna 190x260 B5 biała" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/32960,koperty-bezpieczne-superpak-safe-transparentne-b-5-190x260mm-50-szt" title="Koperta -bezpieczna 190x260 B5 biała">Koperta -bezpieczna 190x260 B5 biała</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/32960,koperty-bezpieczne-superpak-safe-transparentne-b-5-190x260mm-50-szt" title="Koperta -bezpieczna 190x260 B5 biała">Koperta -bezpieczna 190x260 B5 biała</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/32960,koperty-bezpieczne-superpak-safe-transparentne-b-5-190x260mm-50-szt" aria-label="Zobacz produkt: Koperta -bezpieczna 190x260 B5 biała">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/10271,koperta-bezpieczna-190-x-260-b5-przezroczysta"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/beac8a50-1d5f-4e23-942a-c11c89a3cf88.jpg" alt="Koperta -bezpieczna 178x250 B5 przezr." loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/10271,koperta-bezpieczna-190-x-260-b5-przezroczysta" title="Koperta -bezpieczna 178x250 B5 przezr.">Koperta -bezpieczna 178x250 B5 przezr.</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/10271,koperta-bezpieczna-190-x-260-b5-przezroczysta" title="Koperta -bezpieczna 178x250 B5 przezr.">Koperta -bezpieczna 178x250 B5 przezr.</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/10271,koperta-bezpieczna-190-x-260-b5-przezroczysta" aria-label="Zobacz produkt: Koperta -bezpieczna 178x250 B5 przezr.">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/10272,koperta-bezpieczna-255-x-375-b4-przezroczysta"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/c6037976-f3b4-4aee-8116-b997707a0bbb.jpg" alt="Koperta -bezpieczna 255x375 B4 przezr." loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/10272,koperta-bezpieczna-255-x-375-b4-przezroczysta" title="Koperta -bezpieczna 255x375 B4 przezr.">Koperta -bezpieczna 255x375 B4 przezr.</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/10272,koperta-bezpieczna-255-x-375-b4-przezroczysta" title="Koperta -bezpieczna 255x375 B4 przezr.">Koperta -bezpieczna 255x375 B4 przezr.</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/10272,koperta-bezpieczna-255-x-375-b4-przezroczysta" aria-label="Zobacz produkt: Koperta -bezpieczna 255x375 B4 przezr.">Zobacz produkt</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/32958,koperta-bezpieczna-255-x-375-b4-biala"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/38e913b7-d446-430e-a84a-546c548b8d02.png" alt="Koperta -bezpieczna 255x375 B4 biała" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/32958,koperta-bezpieczna-255-x-375-b4-biala" title="Koperta -bezpieczna 255x375 B4 biała">Koperta -bezpieczna 255x375 B4 biała</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/32958,koperta-bezpieczna-255-x-375-b4-biala" aria-label="Zobacz produkt: Koperta -bezpieczna 255x375 B4 biała">Zobacz produkt</a>
-      </article></div></section><section class="eaz-polecamy-group" aria-label="Koperty kurierskie i kopertowe"><h3 class="eaz-polecamy-subheading">Koperty kurierskie i kopertowe</h3><div class="eaz-polecamy-grid">
+      </div></section><section class="eaz-polecamy-group" aria-label="Koperty kurierskie i kopertowe"><h3 class="eaz-polecamy-subheading">Koperty kurierskie i kopertowe</h3><div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/139260,koperta-kurierska-biala-240x275-e-15-plast"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/35a4419a-fb2b-4e23-88ae-0f70c47c66ce.jpg" alt="Koperta kurierska biała 240x275 E/15  Plast" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139260,koperta-kurierska-biala-240x275-e-15-plast" title="Koperta kurierska biała 240x275 E/15  Plast">Koperta kurierska biała 240x275 E/15  Plast</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139260,koperta-kurierska-biala-240x275-e-15-plast" title="Koperta kurierska biała 240x275 E/15  Plast">Koperta kurierska biała 240x275 E/15  Plast</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/139260,koperta-kurierska-biala-240x275-e-15-plast" aria-label="Zobacz produkt: Koperta kurierska biała 240x275 E/15  Plast">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/139338,koperta-kurierska-biala-240x350-f-16-plast"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/5a005042-3a75-4f37-98b8-6c2f27f9b130.jpg" alt="Koperta kurierska biała 240x350 F/16 Plast" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139338,koperta-kurierska-biala-240x350-f-16-plast" title="Koperta kurierska biała 240x350 F/16 Plast">Koperta kurierska biała 240x350 F/16 Plast</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139338,koperta-kurierska-biala-240x350-f-16-plast" title="Koperta kurierska biała 240x350 F/16 Plast">Koperta kurierska biała 240x350 F/16 Plast</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/139338,koperta-kurierska-biala-240x350-f-16-plast" aria-label="Zobacz produkt: Koperta kurierska biała 240x350 F/16 Plast">Zobacz produkt</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/139262,koperta-kurierska-biala-290x370-h-18-plast"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/66b52c1a-dd51-4ef3-ac53-ce83565d57d4.jpg" alt="Koperta kurierska biała 290x370 H/18  Plast" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139262,koperta-kurierska-biala-290x370-h-18-plast" title="Koperta kurierska biała 290x370 H/18  Plast">Koperta kurierska biała 290x370 H/18  Plast</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/139262,koperta-kurierska-biala-290x370-h-18-plast" title="Koperta kurierska biała 290x370 H/18  Plast">Koperta kurierska biała 290x370 H/18  Plast</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/139262,koperta-kurierska-biala-290x370-h-18-plast" aria-label="Zobacz produkt: Koperta kurierska biała 290x370 H/18  Plast">Zobacz produkt</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/15419,teczka-kopertowa-a4-z-europerforacja-transparentna"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/9b6c3985-97d0-4b86-8ee4-92b0bd491d7a.jpg" alt="Teczka Plastikowa koperta A4 z europ. transpar." loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/15419,teczka-kopertowa-a4-z-europerforacja-transparentna" title="Teczka Plastikowa koperta A4 z europ. transpar.">Teczka Plastikowa koperta A4 z europ. transpar.</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/15419,teczka-kopertowa-a4-z-europerforacja-transparentna" aria-label="Zobacz produkt: Teczka Plastikowa koperta A4 z europ. transpar.">Zobacz produkt</a>
-      </article></div></section>
+      </div></section>
 </section>
 <h2 id="faq">Najczęściej zadawane pytania</h2><div class="faq"><details><summary>Jaką kopertę wybrać do faktury?</summary><p>Najczęściej DL, jeśli dokument jest składany, albo C5, gdy chcesz ograniczyć liczbę zgięć.</p></details><details><summary>Jaka koperta pasuje do A4 bez zginania?</summary><p>Do dokumentu A4 bez składania wybierz C4. Przy większej liczbie kartek rozważ kopertę rozszerzaną.</p></details><details><summary>Kiedy wybrać kopertę z okienkiem?</summary><p>Gdy dokument ma adres w stałym miejscu i chcesz przyspieszyć wysyłkę bez naklejania etykiety.</p></details><details><summary>Czym różni się koperta bezpieczna od zwykłej?</summary><p>Koperta bezpieczna lepiej chroni zawartość przed nieuprawnionym otwarciem i sprawdza się przy dokumentach poufnych.</p></details><details><summary>Ile formatów trzymać w biurze?</summary><p>Najczęściej wystarczą DL, C4 oraz jeden wariant rozszerzany lub kurierski do przesyłek specjalnych.</p></details></div>
 <h2>Przeczytaj także</h2><ul class="related-list"><li><a href="/artykuly-biurowe/jak-dobrac-format-koperty-do-dokumentu/">Jak dobrać format koperty do dokumentu?</a></li><li><a href="/artykuly-biurowe/jak-dobrac-koszulki-na-dokumenty/">Jak dobrać koszulki na dokumenty?</a></li><li><a href="/artykuly-biurowe/jak-uporzadkowac-dokumenty-na-biurku/">Jak uporządkować dokumenty na biurku?</a></li><li><a href="/artykuly-biurowe/jak-zorganizowac-archiwum-firmowe/">Jak zorganizować archiwum firmowe?</a></li></ul></article><aside class="sidebar" aria-label="Skrót i oferta"><div class="sidebar-card"><span class="badge">A-Z Biuro</span><h2>W skrócie</h2><p>Do poczty codziennej wybierz DL lub C5, do A4 bez zginania C4, do grubszych kompletów koperty rozszerzane, a do dokumentów poufnych lub kurierskich wariant bezpieczny albo ochronny.</p><div class="sidebar-actions"><a class="btn btn-primary" href="https://eazbiuro.pl/pl/list/biurowe/koperty-i-akcesoria-wysylkowe">Zobacz ofertę</a><a class="btn btn-secondary" href="https://eazbiuro.pl/pl/list/biurowe/koperty-i-akcesoria-wysylkowe/koperty-rozszerzane">Koperty rozszerzane</a></div></div><div class="sidebar-card sidebar-help"><h3>Potrzebujesz pomocy?</h3><p>Podaj format dokumentu, liczbę kartek i sposób doręczenia. Obsługa pomoże zawęzić wybór.</p><a class="text-link" href="https://eazbiuro.pl/pl/page/kontakt">Skontaktuj się z A-Z Biuro →</a></div></aside></section></main><footer class="footer az-footer">

@@ -56,12 +56,12 @@
     .eaz-polecamy-section{max-width:1280px;margin:44px auto;padding:8px 0 4px;background:#fff}
     .eaz-polecamy-heading{margin:0;text-align:center;color:#333;font-size:28px;font-weight:800;line-height:1.2}
     .eaz-polecamy-heading-line{display:block;width:70px;height:4px;margin:14px auto 28px;background:#cd0000;border-radius:999px}
-    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
     .eaz-polecamy-card{display:flex;flex-direction:column;min-height:100%;padding:18px;border:1px solid #e4e4e4;border-radius:6px;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.08);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
     .eaz-polecamy-card:hover{transform:translateY(-4px);border-color:#cd0000;box-shadow:0 12px 28px rgba(0,0,0,.13)}
     .eaz-polecamy-image-link{display:flex;align-items:center;justify-content:center;height:220px;background:#fff;text-decoration:none}
     .eaz-polecamy-image{max-width:90%;max-height:200px;object-fit:contain}
-    .eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+    .eaz-polecamy-name-heading{margin:0}.eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
     .eaz-polecamy-name:hover{color:#cd0000}
     .eaz-polecamy-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:190px;margin:auto auto 0;padding:11px 22px;border:2px solid #cd0000;border-radius:4px;background:#cd0000;color:#fff;text-align:center;text-decoration:none;font-size:15px;font-weight:700;transition:transform .2s ease,background .2s ease,color .2s ease}
     .eaz-polecamy-button:hover{transform:translateY(-1px);background:#fff;color:#000}
@@ -70,89 +70,73 @@
     @media(max-width:767px){.eaz-polecamy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.eaz-polecamy-heading{font-size:24px}}
     @media(max-width:519px){.eaz-polecamy-grid{grid-template-columns:1fr}.eaz-polecamy-image-link{height:200px}}
   </style>
-  <h2 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h2>
+  <h3 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h3>
   <span class="eaz-polecamy-heading-line" aria-hidden="true"></span>
   <div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/64500,polka-eco-przezroczysta-szuflada"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/b0849359-d257-43cc-a627-c9273888ee96.jpg" alt="Szuflada eco przeźroczysta półka" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64500,polka-eco-przezroczysta-szuflada" title="Szuflada eco przeźroczysta półka">Szuflada eco przeźroczysta półka</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64500,polka-eco-przezroczysta-szuflada" title="Szuflada eco przeźroczysta półka">Szuflada eco przeźroczysta półka</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/64500,polka-eco-przezroczysta-szuflada">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/7589,pojemnik-do-archiwizacji-donau-brazowy-10cm"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/e40ebddb-825f-409f-9061-55dd29a73b98.jpg" alt="Pojemnik do archiwizacji Donau brązowy 10 cm" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/7589,pojemnik-do-archiwizacji-donau-brazowy-10cm" title="Pojemnik do archiwizacji Donau brązowy 10 cm">Pojemnik do archiwizacji Donau brązowy 10 cm</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/7589,pojemnik-do-archiwizacji-donau-brazowy-10cm" title="Pojemnik do archiwizacji Donau brązowy 10 cm">Pojemnik do archiwizacji Donau brązowy 10 cm</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/7589,pojemnik-do-archiwizacji-donau-brazowy-10cm">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/35940,pudelka-archiwizacyjne-boxy-100-mm-pojemnosc-1000-kartek-bialy-pojemnik-do-archiwizacji"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/c7d9725b-4a59-4d67-892e-a21a8e643bf7.jpg" alt="Pojemnik do arch. boxy 100 mm, 128102" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/35940,pudelka-archiwizacyjne-boxy-100-mm-pojemnosc-1000-kartek-bialy-pojemnik-do-archiwizacji" title="Pojemnik do arch. boxy 100 mm, 128102">Pojemnik do arch. boxy 100 mm, 128102</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/35940,pudelka-archiwizacyjne-boxy-100-mm-pojemnosc-1000-kartek-bialy-pojemnik-do-archiwizacji" title="Pojemnik do arch. boxy 100 mm, 128102">Pojemnik do arch. boxy 100 mm, 128102</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/35940,pudelka-archiwizacyjne-boxy-100-mm-pojemnosc-1000-kartek-bialy-pojemnik-do-archiwizacji">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/9619,teczka-z-gumka-biala-barbara-lux"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/c50480cb-75f2-475e-a125-1e5e18db75f5.jpg" alt="Teczka z gumką biała Barbara lux" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/9619,teczka-z-gumka-biala-barbara-lux" title="Teczka z gumką biała Barbara lux">Teczka z gumką biała Barbara lux</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/9619,teczka-z-gumka-biala-barbara-lux">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/33504,teczka-z-gumka-biala-barbara"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/6815c024-ffe4-4224-93f2-1bc0f0130288.jpg" alt="Teczka z gumką biała Barbara" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33504,teczka-z-gumka-biala-barbara" title="Teczka z gumką biała Barbara">Teczka z gumką biała Barbara</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33504,teczka-z-gumka-biala-barbara" title="Teczka z gumką biała Barbara">Teczka z gumką biała Barbara</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/33504,teczka-z-gumka-biala-barbara">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/60875,teczka-kopertowa-donau-zatrzask-pp-c5-180mikr-transparentna"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/96cfb370-6169-4b78-9aad-f1279775bf98.jpg" alt="Teczka Plastikowa koperta C5 Donau transparentna" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/60875,teczka-kopertowa-donau-zatrzask-pp-c5-180mikr-transparentna" title="Teczka Plastikowa koperta C5 Donau transparentna">Teczka Plastikowa koperta C5 Donau transparentna</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/60875,teczka-kopertowa-donau-zatrzask-pp-c5-180mikr-transparentna" title="Teczka Plastikowa koperta C5 Donau transparentna">Teczka Plastikowa koperta C5 Donau transparentna</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/60875,teczka-kopertowa-donau-zatrzask-pp-c5-180mikr-transparentna">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/27774,koszulki-a4-krystalicze-100-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/150e37eb-8262-4ff8-a127-b995761f1a6f.jpg" alt="Koszulka A4 /100szt/ kryst. folia Myoffice" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/27774,koszulki-a4-krystalicze-100-sztuk" title="Koszulka A4 /100szt/ kryst. folia Myoffice">Koszulka A4 /100szt/ kryst. folia Myoffice</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/27774,koszulki-a4-krystalicze-100-sztuk" title="Koszulka A4 /100szt/ kryst. folia Myoffice">Koszulka A4 /100szt/ kryst. folia Myoffice</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/27774,koszulki-a4-krystalicze-100-sztuk">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/46633,koszulki-na-dokumenty-office-products-pp-a4-groszkowe-40mikr-100-sztuk"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/d1cd39f2-c086-4bd2-a581-d18002afd85d.jpg" alt="Koszulka A4 Office Products groszek /100szt/" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/46633,koszulki-na-dokumenty-office-products-pp-a4-groszkowe-40mikr-100-sztuk" title="Koszulka A4 Office Products groszek /100szt/">Koszulka A4 Office Products groszek /100szt/</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/46633,koszulki-na-dokumenty-office-products-pp-a4-groszkowe-40mikr-100-sztuk">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/33012,skoroszyt-tekturowy-bigo-oczkowy-1-1"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/1ca70814-0245-4630-83ce-3d45fed068d5.jpg" alt="Skoroszyt tekturowy Bigo oczkowy 1/1" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33012,skoroszyt-tekturowy-bigo-oczkowy-1-1" title="Skoroszyt tekturowy Bigo oczkowy 1/1">Skoroszyt tekturowy Bigo oczkowy 1/1</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33012,skoroszyt-tekturowy-bigo-oczkowy-1-1" title="Skoroszyt tekturowy Bigo oczkowy 1/1">Skoroszyt tekturowy Bigo oczkowy 1/1</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/33012,skoroszyt-tekturowy-bigo-oczkowy-1-1">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/1669,skoroszyt-plastikowy-oczkowy-niebieski-myoffiice"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/8e93114b-4355-482b-896e-6a3ecd81150d.jpg" alt="Skoroszyt Plastikowy oczkowy niebieski MyOffiice" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1669,skoroszyt-plastikowy-oczkowy-niebieski-myoffiice" title="Skoroszyt Plastikowy oczkowy niebieski MyOffiice">Skoroszyt Plastikowy oczkowy niebieski MyOffiice</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1669,skoroszyt-plastikowy-oczkowy-niebieski-myoffiice" title="Skoroszyt Plastikowy oczkowy niebieski MyOffiice">Skoroszyt Plastikowy oczkowy niebieski MyOffiice</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/1669,skoroszyt-plastikowy-oczkowy-niebieski-myoffiice">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/1668,skoroszyt-plastikowy-oczkowy-czarny-myoffiice"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/bf5f6217-99b6-49e2-b940-6ae077f41006.jpg" alt="Skoroszyt Plastikowy oczkowy czarny MyOffiice" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1668,skoroszyt-plastikowy-oczkowy-czarny-myoffiice" title="Skoroszyt Plastikowy oczkowy czarny MyOffiice">Skoroszyt Plastikowy oczkowy czarny MyOffiice</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1668,skoroszyt-plastikowy-oczkowy-czarny-myoffiice" title="Skoroszyt Plastikowy oczkowy czarny MyOffiice">Skoroszyt Plastikowy oczkowy czarny MyOffiice</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/1668,skoroszyt-plastikowy-oczkowy-czarny-myoffiice">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/31951,skoroszyt-tekturowy-bigo-zwykly-z-falda"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/c02a6973-aea4-44ef-a0b7-30541c57d2c7.jpg" alt="Skoroszyt tekturowy Bigo zwykły z fałdą" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/31951,skoroszyt-tekturowy-bigo-zwykly-z-falda" title="Skoroszyt tekturowy Bigo zwykły z fałdą">Skoroszyt tekturowy Bigo zwykły z fałdą</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/31951,skoroszyt-tekturowy-bigo-zwykly-z-falda">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/140,segregator-donau-a4-75-master-czarny-kup-teraz"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/37ede5e9-90c1-42bf-b890-e347662c6add.jpg" alt="Segregator Donau A4/75 master czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/140,segregator-donau-a4-75-master-czarny-kup-teraz" title="Segregator Donau A4/75 master czarny">Segregator Donau A4/75 master czarny</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/140,segregator-donau-a4-75-master-czarny-kup-teraz" title="Segregator Donau A4/75 master czarny">Segregator Donau A4/75 master czarny</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/140,segregator-donau-a4-75-master-czarny-kup-teraz">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/28017,segregator-donau-a4-50-master-ciemnoniebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/9d99a400-27d3-48e3-a093-5aaef12a1226.jpg" alt="Segregator Donau A4/50 master niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/28017,segregator-donau-a4-50-master-ciemnoniebieski" title="Segregator Donau A4/50 master niebieski">Segregator Donau A4/50 master niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/28017,segregator-donau-a4-50-master-ciemnoniebieski" title="Segregator Donau A4/50 master niebieski">Segregator Donau A4/50 master niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/28017,segregator-donau-a4-50-master-ciemnoniebieski">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/34023,teczka-wiazana"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/680c2ab8-3090-4b2b-a760-a1db0889f0f2.jpg" alt="Teczka wiązana biała 250g bezkwasowa" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/34023,teczka-wiazana" title="Teczka wiązana biała 250g bezkwasowa">Teczka wiązana biała 250g bezkwasowa</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/34023,teczka-wiazana" title="Teczka wiązana biała 250g bezkwasowa">Teczka wiązana biała 250g bezkwasowa</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/34023,teczka-wiazana">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/28387,marker-pentel-n850-niezmywalny-czarny-okragly"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/445d4fda-435a-4b9e-96df-ff1fe116416e.jpg" alt="Marker permanentny Pentel n850 czarny okrągły" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/28387,marker-pentel-n850-niezmywalny-czarny-okragly" title="Marker permanentny Pentel n850 czarny okrągły">Marker permanentny Pentel n850 czarny okrągły</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/28387,marker-pentel-n850-niezmywalny-czarny-okragly">Kup teraz</a>
-      </article>
+      
   </div>
 </section>
 <h2 id="faq">Najczęściej zadawane pytania</h2><div class="faq"><details><summary>Od czego zacząć porządkowanie dokumentów na biurku?</summary><p>Od usunięcia spraw zakończonych i podziału reszty na dokumenty nowe, aktywne oraz do archiwum. Dopiero później dobieraj półki, teczki i koszulki.</p></details><details><summary>Czy dokumenty lepiej trzymać w teczkach czy koszulkach?</summary><p>Koszulki są dobre do pojedynczych dokumentów lub małych kompletów. Teczki lepiej sprawdzają się przy sprawach w toku i dokumentach przenoszonych między osobami.</p></details><details><summary>Ile pojemników powinno stać na biurku?</summary><p>Tyle, ile ma realne zadanie. Najczęściej wystarczy miejsce na dokumenty przychodzące, sprawy w toku i dokumenty do odłożenia.</p></details><details><summary>Jak uniknąć powrotu bałaganu?</summary><p>Ustal codzienny krótki przegląd blatu. Jeśli sprawa jest zakończona, od razu trafia do archiwum, a nie zostaje na biurku.</p></details><details><summary>Kiedy używać segregatora?</summary><p>Segregator jest najlepszy do większych kompletów i archiwum podzielonego przekładkami. Do jednej aktywnej sprawy wygodniejsza bywa teczka lub skoroszyt.</p></details></div>

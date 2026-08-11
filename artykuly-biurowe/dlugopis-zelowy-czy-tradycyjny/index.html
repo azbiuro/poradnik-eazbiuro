@@ -54,12 +54,12 @@
     .eaz-polecamy-section{max-width:1280px;margin:44px auto;padding:8px 0 4px;background:#fff}
     .eaz-polecamy-heading{margin:0;text-align:center;color:#333;font-size:28px;font-weight:800;line-height:1.2}
     .eaz-polecamy-heading-line{display:block;width:70px;height:4px;margin:14px auto 28px;background:#cd0000;border-radius:999px}
-    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+    .eaz-polecamy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
     .eaz-polecamy-card{display:flex;flex-direction:column;min-height:100%;padding:18px;border:1px solid #e4e4e4;border-radius:6px;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.08);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
     .eaz-polecamy-card:hover{transform:translateY(-4px);border-color:#cd0000;box-shadow:0 12px 28px rgba(0,0,0,.13)}
     .eaz-polecamy-image-link{display:flex;align-items:center;justify-content:center;height:220px;background:#fff;text-decoration:none}
     .eaz-polecamy-image{max-width:90%;max-height:200px;object-fit:contain}
-    .eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+    .eaz-polecamy-name-heading{margin:0}.eaz-polecamy-name{display:-webkit-box;min-height:68px;margin:16px 0 18px;overflow:hidden;color:#333;text-align:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4;-webkit-line-clamp:3;-webkit-box-orient:vertical}
     .eaz-polecamy-name:hover{color:#cd0000}
     .eaz-polecamy-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:190px;margin:auto auto 0;padding:11px 22px;border:2px solid #cd0000;border-radius:4px;background:#cd0000;color:#fff;text-align:center;text-decoration:none;font-size:15px;font-weight:700;transition:transform .2s ease,background .2s ease,color .2s ease}
     .eaz-polecamy-button:hover{transform:translateY(-1px);background:#fff;color:#000}
@@ -68,89 +68,73 @@
     @media(max-width:767px){.eaz-polecamy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.eaz-polecamy-heading{font-size:24px}}
     @media(max-width:519px){.eaz-polecamy-grid{grid-template-columns:1fr}.eaz-polecamy-image-link{height:200px}}
   </style>
-  <h2 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h2>
+  <h3 class="eaz-polecamy-heading" id="produkty-polecane">Produkty polecane</h3>
   <span class="eaz-polecamy-heading-line" aria-hidden="true"></span>
   <div class="eaz-polecamy-grid">
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/67646,dlugopis-kulkowy-sxn-101-jetstream-niebieski-uni"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/9a6b4dba-0e57-49d7-ab7a-015b5d73ac51.png" alt="Długopis kulkowy sxn-101n jetstream, niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/67646,dlugopis-kulkowy-sxn-101-jetstream-niebieski-uni" title="Długopis kulkowy sxn-101n jetstream, niebieski">Długopis kulkowy sxn-101n jetstream, niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/67646,dlugopis-kulkowy-sxn-101-jetstream-niebieski-uni" title="Długopis kulkowy sxn-101n jetstream, niebieski">Długopis kulkowy sxn-101n jetstream, niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/67646,dlugopis-kulkowy-sxn-101-jetstream-niebieski-uni">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/1230,cienkopis-kulkowy-pentel-energel-bln75-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/cb42a7c6-22d2-4a6b-8b5a-283e4c4afcf7.jpg" alt="Cienkopis kulkowy Pentel energel bln75 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1230,cienkopis-kulkowy-pentel-energel-bln75-niebieski" title="Cienkopis kulkowy Pentel energel bln75 niebieski">Cienkopis kulkowy Pentel energel bln75 niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1230,cienkopis-kulkowy-pentel-energel-bln75-niebieski" title="Cienkopis kulkowy Pentel energel bln75 niebieski">Cienkopis kulkowy Pentel energel bln75 niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/1230,cienkopis-kulkowy-pentel-energel-bln75-niebieski">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/33463,cienkopis-kulkowy-pentel-energel-bln15-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/b1e9f98e-0ec8-4110-b16d-751e59c0b218.jpg" alt="Cienkopis kulkowy Pentel energel bln15 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33463,cienkopis-kulkowy-pentel-energel-bln15-niebieski" title="Cienkopis kulkowy Pentel energel bln15 niebieski">Cienkopis kulkowy Pentel energel bln15 niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/33463,cienkopis-kulkowy-pentel-energel-bln15-niebieski" title="Cienkopis kulkowy Pentel energel bln15 niebieski">Cienkopis kulkowy Pentel energel bln15 niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/33463,cienkopis-kulkowy-pentel-energel-bln15-niebieski">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/35151,pioro-kulkowe-pentel-energel-bl77-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/9d5da694-9808-4ca5-9e39-4fa0fa04d079.jpg" alt="Pióro kulkowe Pentel energel bl77 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/35151,pioro-kulkowe-pentel-energel-bl77-niebieski" title="Pióro kulkowe Pentel energel bl77 niebieski">Pióro kulkowe Pentel energel bl77 niebieski</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/35151,pioro-kulkowe-pentel-energel-bl77-niebieski">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/64373,dlugopis-automatyczny-zelowy-pentel-k497-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/595947b9-357f-444c-b1e9-724cef91f691.jpg" alt="Długopis automatyczny żelowy Pentel K497 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64373,dlugopis-automatyczny-zelowy-pentel-k497-niebieski" title="Długopis automatyczny żelowy Pentel K497 niebieski">Długopis automatyczny żelowy Pentel K497 niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64373,dlugopis-automatyczny-zelowy-pentel-k497-niebieski" title="Długopis automatyczny żelowy Pentel K497 niebieski">Długopis automatyczny żelowy Pentel K497 niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/64373,dlugopis-automatyczny-zelowy-pentel-k497-niebieski">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/34308,wklad-pentel-energel-lr7-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/10334eaa-407b-4323-a34f-2bcf599a4186.jpg" alt="Wkład Pentel energel lr7 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/34308,wklad-pentel-energel-lr7-niebieski" title="Wkład Pentel energel lr7 niebieski">Wkład Pentel energel lr7 niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/34308,wklad-pentel-energel-lr7-niebieski" title="Wkład Pentel energel lr7 niebieski">Wkład Pentel energel lr7 niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/34308,wklad-pentel-energel-lr7-niebieski">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/63970,dlugopis-zelowy-pentel-0-7-mm-k437cr-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/2568a414-5778-4bc8-b254-609823299ae5.jpg" alt="Długopis żelowy Pentel 0,7 mm k437cr niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/63970,dlugopis-zelowy-pentel-0-7-mm-k437cr-niebieski" title="Długopis żelowy Pentel 0,7 mm k437cr niebieski">Długopis żelowy Pentel 0,7 mm k437cr niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/63970,dlugopis-zelowy-pentel-0-7-mm-k437cr-niebieski" title="Długopis żelowy Pentel 0,7 mm k437cr niebieski">Długopis żelowy Pentel 0,7 mm k437cr niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/63970,dlugopis-zelowy-pentel-0-7-mm-k437cr-niebieski">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/29822,wklad-pentel-energel-lr7-czarny"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/910512c7-e633-47d7-a713-713ef2005edd.jpg" alt="Wkład Pentel energel lr7 czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/29822,wklad-pentel-energel-lr7-czarny" title="Wkład Pentel energel lr7 czarny">Wkład Pentel energel lr7 czarny</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/29822,wklad-pentel-energel-lr7-czarny">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/29873,wklad-pentel-lrn-5-niebieski-do-bln75-bln35"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/e392f67b-e78e-4db1-9b72-18d527490224.jpg" alt="Wkład Pentel energel lrn5 niebieski do bln75/bln35" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/29873,wklad-pentel-lrn-5-niebieski-do-bln75-bln35" title="Wkład Pentel energel lrn5 niebieski do bln75/bln35">Wkład Pentel energel lrn5 niebieski do bln75/bln35</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/29873,wklad-pentel-lrn-5-niebieski-do-bln75-bln35" title="Wkład Pentel energel lrn5 niebieski do bln75/bln35">Wkład Pentel energel lrn5 niebieski do bln75/bln35</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/29873,wklad-pentel-lrn-5-niebieski-do-bln75-bln35">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/64238,pioro-kulkowe-pentel-energel-0-7-mm-bl107-niebieskie"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/46328283-e5c6-4788-b514-33400643eb32.jpg" alt="Pióro kulkowe Pentel energel 0,7 mm bl107 nieb" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64238,pioro-kulkowe-pentel-energel-0-7-mm-bl107-niebieskie" title="Pióro kulkowe Pentel energel 0,7 mm bl107 nieb">Pióro kulkowe Pentel energel 0,7 mm bl107 nieb</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64238,pioro-kulkowe-pentel-energel-0-7-mm-bl107-niebieskie" title="Pióro kulkowe Pentel energel 0,7 mm bl107 nieb">Pióro kulkowe Pentel energel 0,7 mm bl107 nieb</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/64238,pioro-kulkowe-pentel-energel-0-7-mm-bl107-niebieskie">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/75322,dlugopis-kulkowy-sxn-101-jetstream-czarny-uni"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/48f29986-b99e-4c64-aed0-70a83b4308e5.jpg" alt="Długopis kulkowy sxn-101n jetstream, czarny, uni" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/75322,dlugopis-kulkowy-sxn-101-jetstream-czarny-uni" title="Długopis kulkowy sxn-101n jetstream, czarny, uni">Długopis kulkowy sxn-101n jetstream, czarny, uni</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/75322,dlugopis-kulkowy-sxn-101-jetstream-czarny-uni" title="Długopis kulkowy sxn-101n jetstream, czarny, uni">Długopis kulkowy sxn-101n jetstream, czarny, uni</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/75322,dlugopis-kulkowy-sxn-101-jetstream-czarny-uni">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/39892,wklad-pentel-energel-lrn5-czarny"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/f1997570-cc66-4d45-b1d4-83b64484683b.jpg" alt="Wkład Pentel energel lrn5 czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/39892,wklad-pentel-energel-lrn5-czarny" title="Wkład Pentel energel lrn5 czarny">Wkład Pentel energel lrn5 czarny</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/39892,wklad-pentel-energel-lrn5-czarny">Kup teraz</a>
-      </article>
+      
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/46724,cienkopis-kulkowy-pentel-energel-bln15-czarny"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/6aba1625-3243-47cf-afb4-92bdede71912.jpg" alt="Cienkopis kulkowy Pentel energel bln15 czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/46724,cienkopis-kulkowy-pentel-energel-bln15-czarny" title="Cienkopis kulkowy Pentel energel bln15 czarny">Cienkopis kulkowy Pentel energel bln15 czarny</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/46724,cienkopis-kulkowy-pentel-energel-bln15-czarny" title="Cienkopis kulkowy Pentel energel bln15 czarny">Cienkopis kulkowy Pentel energel bln15 czarny</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/46724,cienkopis-kulkowy-pentel-energel-bln15-czarny">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/64328,wklad-pentel-energel-lr7-niebiesko-czarny"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/15e60317-3e26-4b6d-bb30-e231d4c7728c.jpg" alt="Wkład Pentel energel lr7 niebiesko czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64328,wklad-pentel-energel-lr7-niebiesko-czarny" title="Wkład Pentel energel lr7 niebiesko czarny">Wkład Pentel energel lr7 niebiesko czarny</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64328,wklad-pentel-energel-lr7-niebiesko-czarny" title="Wkład Pentel energel lr7 niebiesko czarny">Wkład Pentel energel lr7 niebiesko czarny</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/64328,wklad-pentel-energel-lr7-niebiesko-czarny">Kup teraz</a>
       </article>
       <article class="eaz-polecamy-card">
         <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/64370,cienkopis-kulkowy-pentel-energel-bln105-niebieski"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/49a13589-7bc0-4e5a-a722-9a1a1e17b7df.jpg" alt="Cienkopis kulkowy Pentel energel bln105 niebieski" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64370,cienkopis-kulkowy-pentel-energel-bln105-niebieski" title="Cienkopis kulkowy Pentel energel bln105 niebieski">Cienkopis kulkowy Pentel energel bln105 niebieski</a>
+        <h4 class="eaz-polecamy-name-heading"><a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/64370,cienkopis-kulkowy-pentel-energel-bln105-niebieski" title="Cienkopis kulkowy Pentel energel bln105 niebieski">Cienkopis kulkowy Pentel energel bln105 niebieski</a></h4>
         <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/64370,cienkopis-kulkowy-pentel-energel-bln105-niebieski">Kup teraz</a>
       </article>
-      <article class="eaz-polecamy-card">
-        <a class="eaz-polecamy-image-link" href="https://eazbiuro.pl/pl/product/1229,cienkopis-kulkowy-pentel-energel-bln75-czarny"><img class="eaz-polecamy-image" src="https://eazbiuro.pl/assets/default/photos/2/d08e17ff-ef01-44e2-bd45-2e423d5c123d.jpg" alt="Cienkopis kulkowy Pentel energel bln75 czarny" loading="lazy" decoding="async"></a>
-        <a class="eaz-polecamy-name" href="https://eazbiuro.pl/pl/product/1229,cienkopis-kulkowy-pentel-energel-bln75-czarny" title="Cienkopis kulkowy Pentel energel bln75 czarny">Cienkopis kulkowy Pentel energel bln75 czarny</a>
-        <a class="eaz-polecamy-button" href="https://eazbiuro.pl/pl/product/1229,cienkopis-kulkowy-pentel-energel-bln75-czarny">Kup teraz</a>
-      </article>
+      
   </div>
 </section>
 <h2 id="faq">Najczęściej zadawane pytania</h2><div class="faq"><details><summary>Czy długopis żelowy jest lepszy od tradycyjnego?</summary><p>Nie zawsze. Żelowy jest wygodniejszy do notatek i daje mocniejszą linię, ale tradycyjny zwykle szybciej schnie i jest pewniejszy przy dokumentach.</p></details><details><summary>Co wybrać dla osoby leworęcznej?</summary><p>Najpierw sprawdź czas schnięcia. Osoby leworęczne częściej przesuwają dłonią po świeżym zapisie, więc szybkoschnący tradycyjny lub hybrydowy długopis bywa bezpieczniejszy.</p></details><details><summary>Jaki kolor tuszu jest najlepszy do biura?</summary><p>Niebieski jest bardzo uniwersalny do podpisów i odróżnia oryginał od kopii. Czarny sprawdza się w dokumentach formalnych i tam, gdzie wymaga go procedura.</p></details><details><summary>Czy warto kupować opakowanie zbiorcze?</summary><p>Tak, ale dopiero po krótkim teście. Przy większym zapasie ważna jest powtarzalność modelu, dostępność wkładów i zgodność z papierem używanym w firmie.</p></details><details><summary>Czy długopis żelowy nadaje się do formularzy?</summary><p>Może się nadawać, jeśli szybko schnie i nie rozmazuje się na konkretnym druku. Bez testu bezpieczniejszy jest długopis tradycyjny.</p></details></div>
