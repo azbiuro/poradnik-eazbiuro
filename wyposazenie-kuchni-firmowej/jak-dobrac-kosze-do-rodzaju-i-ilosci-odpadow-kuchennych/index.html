@@ -15,17 +15,19 @@
 @media(max-width:900px){.article-shell{grid-template-columns:1fr}.sidebar{position:static!important}.eaz-polecamy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.steps li{grid-template-columns:36px minmax(0,1fr)!important;padding:13px!important;gap:10px!important}.steps li>span{width:34px!important;height:34px!important}.check-grid{grid-template-columns:1fr}.eaz-polecamy-grid{grid-template-columns:1fr}.eaz-polecamy-group{padding:14px}.eaz-polecamy-image-link{height:190px}}
 .eaz-polecamy-intro{max-width:920px;margin:0 auto 24px;color:#555;text-align:center;font-size:15px;line-height:1.65}</style><style data-fix="layout-links-20260824">
-/* FIX 2026-08-24: układ poradnika + statyczne nazwy produktów */
-.quick-answer{display:block!important;min-width:0!important;max-width:100%!important;}
-.quick-answer>h2{margin-top:0!important;overflow-wrap:normal!important;word-break:normal!important;}
-.quick-answer>p{max-width:none!important;overflow-wrap:normal!important;word-break:normal!important;}
+/* FIX 2026-08-24: poprawny quick-answer + statyczne nazwy produktów */
+.quick-answer{display:grid!important;grid-template-columns:38px minmax(0,1fr)!important;gap:14px!important;align-items:start!important;min-width:0!important;max-width:100%!important;}
+.quick-answer>.quick-icon{display:grid!important;place-items:center!important;width:38px!important;height:38px!important;min-width:38px!important;max-width:38px!important;margin:0!important;padding:0!important;border:0!important;border-radius:50%!important;background:#105fa6!important;color:#fff!important;font-size:18px!important;font-weight:900!important;line-height:1!important;white-space:nowrap!important;overflow:hidden!important;}
+.quick-answer>div{min-width:0!important;max-width:100%!important;}
+.quick-answer>div>strong{display:block!important;margin:0!important;overflow-wrap:normal!important;word-break:normal!important;}
+.quick-answer>div>p{max-width:none!important;margin:5px 0 0!important;overflow-wrap:normal!important;word-break:normal!important;}
 .cta-panel{display:block!important;min-width:0!important;max-width:100%!important;}
 .cta-panel>h2,.cta-panel>p,.cta-panel>.eyebrow{max-width:100%!important;overflow-wrap:normal!important;word-break:normal!important;}
 .cta-panel .top-actions{margin:20px 0 0!important;}
 .eaz-polecamy-name-static{margin:12px 0 14px!important;color:#222!important;font-size:16px!important;line-height:1.35!important;font-weight:800!important;overflow-wrap:normal!important;word-break:normal!important;hyphens:auto;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;}
 .eaz-polecamy-card{min-width:0!important;}
 .eaz-polecamy-card .eaz-polecamy-button{overflow-wrap:normal!important;word-break:normal!important;}
-@media(max-width:620px){.quick-answer,.cta-panel{display:block!important}.cta-panel .top-actions{width:100%!important}}
+@media(max-width:620px){.quick-answer{grid-template-columns:34px minmax(0,1fr)!important;gap:12px!important}.quick-answer>.quick-icon{width:34px!important;height:34px!important;min-width:34px!important;max-width:34px!important;font-size:16px!important}.cta-panel{display:block!important}.cta-panel .top-actions{width:100%!important}}
 </style></head><body><a class="skip-link" href="#tresc">Przejdź do treści</a><header class="site-header az-header" data-header="">
 <div class="container az-header-inner">
 <a aria-label="Poradnik zakupowy A-Z Biuro — strona główna" class="az-brand" href="/">
