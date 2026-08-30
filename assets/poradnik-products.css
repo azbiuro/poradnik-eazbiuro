@@ -74,3 +74,6 @@
   .article .cta-panel{margin-top:32px;padding:20px;border-radius:14px}
   .article .cta-panel h2{font-size:1.45rem}
 }
+/* Awaryjne zachowanie zdjęć produktów: ukrywa ikonę uszkodzonego obrazu dopiero po wyczerpaniu źródła, resolve i cache. */
+.eaz-polecamy-image-link.is-image-unavailable{position:relative;min-height:220px;border:1px dashed #d9d9d9;border-radius:4px;background:#fafafa}
+.eaz-polecamy-image-link.is-image-unavailable::after{content:"Zdjęcie chwilowo niedostępne — zobacz produkt w sklepie";display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:200px;padding:18px;box-sizing:border-box;color:#666;text-align:center;font-size:14px;line-height:1.45}
