@@ -30,6 +30,38 @@
 @media(max-width:1024px){.article-shell{grid-template-columns:minmax(0,1fr) 270px!important;gap:22px!important}.eaz-polecamy-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:860px){.article-shell{grid-template-columns:1fr!important}.article-shell>.sidebar{position:static!important;width:100%!important}.related-guides{grid-template-columns:1fr!important}}
 @media(max-width:600px){.eaz-polecamy-grid{grid-template-columns:1fr!important}.article .top-actions,.cta-panel .top-actions{display:grid!important;grid-template-columns:1fr!important}.article .top-actions .btn,.cta-panel .top-actions .btn{width:100%!important;box-sizing:border-box!important}.table-wrap table{min-width:640px!important}}
+</style><style data-fix="sidebar-related-v6">
+/* Sidebar ma 320 px: powiązane poradniki muszą być w jednej kolumnie. */
+.sidebar .related-list{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr)!important;
+  gap:10px!important;
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+.sidebar .related-list li{
+  min-width:0!important;
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+}
+.sidebar .related-list li a{
+  display:block!important;
+  width:100%!important;
+  min-width:0!important;
+  padding:13px 15px!important;
+  border:1px solid #dfe4e8!important;
+  border-radius:11px!important;
+  background:#fff!important;
+  text-decoration:none!important;
+  font-weight:700!important;
+  line-height:1.45!important;
+  word-break:normal!important;
+  overflow-wrap:break-word!important;
+  hyphens:none!important;
+}
 </style></head><body><a class="skip-link" href="#tresc">Przejdź do treści</a><header class="site-header az-header" data-header="">
 <div class="container az-header-inner">
 <a aria-label="Poradnik zakupowy A-Z Biuro — strona główna" class="az-brand" href="/">
