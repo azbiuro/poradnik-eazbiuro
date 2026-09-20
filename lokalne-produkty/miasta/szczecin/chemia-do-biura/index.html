@@ -153,7 +153,17 @@ body{background:#f3f5f8;color:var(--az-text)}
   .lp-final,.lp-final-cta{display:block;padding:28px 22px}
   .lp-final .lp-btn,.lp-final-cta .lp-btn{width:100%;margin-top:18px}
   .lp-table{min-width:680px}
-}</style></head>
+}</style>\n<style id="az-product-grid-fix-20260920">
+/* Ujednolicenie kart produktowych: 4 desktop / 2 tablet / 1 mobile. */
+.lp-product-grid,.products,.lp-products,.product-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px!important;align-items:stretch!important}
+.lp-product-card,.lp-product,.products>.product,.products>.card,.lp-products>.product-card,.lp-products>.lp-product,.product-grid>.product{height:100%!important;min-width:0!important;display:flex!important;flex-direction:column!important;overflow:hidden!important;box-sizing:border-box!important;border:1px solid #dfe5ec!important;border-radius:16px!important;background:#fff!important}
+.lp-product-image,.lp-product-media,.products>.product>img,.products>.card>img,.lp-products>.product-card>img,.lp-products>.lp-product>img,.product-grid>.product>.product-img,.product-grid>.product>img{height:220px!important;min-height:220px!important;width:100%!important;object-fit:contain!important;box-sizing:border-box!important;padding:14px!important;background:#fff!important}
+.lp-product-body,.products>.product>.product-body,.products>.card>.product-body,.lp-products>.product-card>.product-body,.lp-products>.lp-product>.product-body,.product-grid>.product>.product-body{display:flex!important;flex:1 1 auto!important;flex-direction:column!important;min-height:0!important}
+.lp-product-btn,.products>.product .btn,.products>.card .btn,.lp-products>.product-card .btn,.lp-products>.lp-product .btn,.product-grid>.product .btn{margin-top:auto!important;align-self:stretch!important}
+.lp-product-card>a:last-child,.lp-product>a:last-child,.products>.product>a:last-child,.products>.card>a:last-child,.lp-products>.product-card>a:last-child,.lp-products>.lp-product>a:last-child,.product-grid>.product>a:last-child{margin-top:auto!important}
+@media(max-width:1060px){.lp-product-grid,.products,.lp-products,.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:700px){.lp-product-grid,.products,.lp-products,.product-grid{grid-template-columns:1fr!important}.lp-product-image,.lp-product-media,.products>.product>img,.products>.card>img,.lp-products>.product-card>img,.lp-products>.lp-product>img,.product-grid>.product>.product-img,.product-grid>.product>img{height:200px!important;min-height:200px!important}}
+</style>\n</head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header="">
