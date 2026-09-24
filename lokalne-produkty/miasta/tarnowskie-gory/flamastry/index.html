@@ -26,7 +26,65 @@ body{background:#f3f5f8;color:var(--az-text)}
 .lp-final{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:30px;background:#fff;border:1px solid #eccaca;border-radius:24px;padding:36px 38px;margin:0 0 46px;box-shadow:0 12px 34px rgba(20,37,59,.055);color:var(--az-text)}.lp-final:after{content:"TARNOWSKIE GÓRY";position:absolute;right:-12px;bottom:-20px;font-size:52px;font-weight:950;color:rgba(205,0,0,.045);pointer-events:none}.lp-final>div,.lp-final>a{position:relative;z-index:1}.lp-final h2{font-size:33px;line-height:1.15;margin:7px 0 8px}.lp-final p{max-width:760px;color:#647181;line-height:1.65;margin:0}
 @media(max-width:1060px){.lp-hero{grid-template-columns:1fr;padding:40px}.lp-quicknav{grid-template-columns:repeat(2,1fr)}.lp-answer,.lp-local-intro,.lp-local-band{grid-template-columns:1fr}.lp-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.lp-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.lp-group-head{align-items:flex-start}}
 @media(max-width:700px){.local-shop .lp-wrap{width:min(100% - 24px,1240px)}.lp-hero{padding:28px 22px;border-radius:20px}.lp-hero h1{font-size:36px}.lp-lead{font-size:17px}.lp-actions{display:grid}.lp-btn{width:100%}.lp-quicknav{grid-template-columns:1fr}.lp-answer{padding:21px 18px}.lp-card,.lp-decision,.lp-product-group,.lp-related,.lp-faq{padding:23px 18px}.lp-related-grid{grid-template-columns:1fr}.lp-audiences{grid-template-columns:1fr}.lp-decision-head,.lp-group-head{display:block}.lp-small-link{display:inline-block;margin-top:12px}.lp-product-grid{grid-template-columns:1fr}.lp-local-band{padding:27px 22px}.lp-final{display:block;padding:28px 22px}.lp-final .lp-btn{width:100%;margin-top:18px}.lp-table{min-width:620px}}
-</style></head>
+</style>
+<!-- FIX_TARNOWSKIE_GORY_WATERMARK_V2 -->
+<style>
+html body .lp-final::after,
+html body .lp-final:after {
+  content: "TARNOWSKIE GÓRY" !important;
+}
+</style>
+<!-- /FIX_TARNOWSKIE_GORY_WATERMARK_V2 -->
+
+
+<!-- FIX_TARNOWSKIE_GORY_LOCAL_LINKS_V3 -->
+<style>
+/* Czytelne akcje i linki na ciemnym lokalnym panelu */
+html body .local-shop .lp-local-actions {
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+  margin-top: 20px !important;
+}
+html body .local-shop .lp-local-links {
+  display: grid !important;
+  gap: 10px !important;
+}
+html body .local-shop .lp-local-links a,
+html body .local-shop .lp-local-links a:visited {
+  display: flex !important;
+  align-items: flex-start !important;
+  min-height: 48px !important;
+  padding: 13px 14px !important;
+  background: rgba(255,255,255,.10) !important;
+  border: 1px solid rgba(255,255,255,.14) !important;
+  border-radius: 13px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  line-height: 1.4 !important;
+}
+html body .local-shop .lp-local-links a:hover,
+html body .local-shop .lp-local-links a:focus {
+  background: rgba(255,255,255,.16) !important;
+  color: #ffffff !important;
+}
+html body .local-shop .lp-local-band .lp-btn-secondary,
+html body .local-shop .lp-local-band .lp-btn-secondary:visited {
+  background: #ffffff !important;
+  color: #105fa6 !important;
+  border-color: #ffffff !important;
+}
+html body .local-shop .lp-local-band .lp-btn-secondary:hover,
+html body .local-shop .lp-local-band .lp-btn-secondary:focus {
+  background: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+</style>
+<!-- /FIX_TARNOWSKIE_GORY_LOCAL_LINKS_V3 -->
+
+</head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header="">
