@@ -21,7 +21,7 @@
 <meta content="A-Z Biuro" property="og:image:alt"/>
 <meta content="summary" name="twitter:card"/>
 <meta content="Klej w sprayu Toruń | Tesa, 3M, Apli i SCOTCH" name="twitter:title"/>
-<meta content="Klej w sprayu Toruń: porównaj 16 produktów w 4 grupach, w tym Tesa, 3M, Apli i SCOTCH oraz taśmy montażowe i kleje specjalne w A-Z Biuro." name="twitter:description">
+<meta content="Klej w sprayu Toruń: porównaj 16 produktów w 4 grupach, w tym Tesa, 3M, Apli i SCOTCH oraz taśmy montażowe i kleje specjalne w A-Z Biuro." name="twitter:description"/>
 <style>
 :root{--az-red:#cd0000;--az-red-dark:#a90000;--az-blue:#105fa6;--az-navy:#13243a;--az-text:#243142;--az-muted:#647181;--az-line:#e3e8ef;--az-soft:#f4f7fa;--az-white:#fff}
 body{background:#f3f5f8;color:var(--az-text)}
@@ -150,7 +150,7 @@ body{background:#f3f5f8;color:var(--az-text)}
   .lp-final,.lp-final-cta{display:block;padding:28px 22px}
   .lp-final .lp-btn,.lp-final-cta .lp-btn{width:100%;margin-top:18px}
   .lp-table{min-width:680px}
-}</style></meta>
+}</style>
 <!-- FIX_TARNOWSKIE_GORY_LOCAL_LINKS_V3 -->
 <style>
 /* Czytelne akcje i linki na ciemnym lokalnym panelu */
@@ -197,7 +197,13 @@ html body .local-shop .lp-local-band .lp-btn-secondary:focus {
 }
 </style>
 <!-- /FIX_TARNOWSKIE_GORY_LOCAL_LINKS_V3 -->
-</head>
+<style id="torun-local-normalization-fix">
+/* Normalizacja finalnego CTA i fallbacku obrazów – Toruń */
+.lp-final::after,.lp-final:after,.lp-final-cta::after,.lp-final-cta:after{content:attr(data-city)!important;right:-12px!important;bottom:-20px!important;font-size:76px!important;line-height:1!important;font-weight:950!important;color:rgba(205,0,0,.045)!important;pointer-events:none!important;white-space:nowrap!important}
+.lp-image-fallback{display:none!important}
+.lp-product-image.is-image-missing img{display:none!important}
+.lp-product-image.is-image-missing>.lp-image-fallback,.lp-product-image.is-image-missing .lp-image-fallback{display:flex!important;align-items:center!important;justify-content:center!important;min-height:170px!important;padding:18px!important;color:#7b848d!important;text-align:center!important;text-decoration:none!important}
+</style></head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header="">

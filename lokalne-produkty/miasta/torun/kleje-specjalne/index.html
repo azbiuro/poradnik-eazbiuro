@@ -150,7 +150,13 @@ body{background:#f3f5f8;color:var(--az-text)}
   .lp-final,.lp-final-cta{display:block;padding:28px 22px}
   .lp-final .lp-btn,.lp-final-cta .lp-btn{width:100%;margin-top:18px}
   .lp-table{min-width:680px}
-}</style></head>
+}</style><style id="torun-local-normalization-fix">
+/* Normalizacja finalnego CTA i fallbacku obrazów – Toruń */
+.lp-final::after,.lp-final:after,.lp-final-cta::after,.lp-final-cta:after{content:attr(data-city)!important;right:-12px!important;bottom:-20px!important;font-size:76px!important;line-height:1!important;font-weight:950!important;color:rgba(205,0,0,.045)!important;pointer-events:none!important;white-space:nowrap!important}
+.lp-image-fallback{display:none!important}
+.lp-product-image.is-image-missing img{display:none!important}
+.lp-product-image.is-image-missing>.lp-image-fallback,.lp-product-image.is-image-missing .lp-image-fallback{display:flex!important;align-items:center!important;justify-content:center!important;min-height:170px!important;padding:18px!important;color:#7b848d!important;text-align:center!important;text-decoration:none!important}
+</style></head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header="">

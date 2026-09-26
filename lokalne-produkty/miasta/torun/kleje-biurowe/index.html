@@ -197,7 +197,13 @@ html body .local-shop .lp-local-band .lp-btn-secondary:focus {
 }
 </style>
 <!-- /FIX_TARNOWSKIE_GORY_LOCAL_LINKS_V3 -->
-</head>
+<style id="torun-local-normalization-fix">
+/* Normalizacja finalnego CTA i fallbacku obrazów – Toruń */
+.lp-final::after,.lp-final:after,.lp-final-cta::after,.lp-final-cta:after{content:attr(data-city)!important;right:-12px!important;bottom:-20px!important;font-size:76px!important;line-height:1!important;font-weight:950!important;color:rgba(205,0,0,.045)!important;pointer-events:none!important;white-space:nowrap!important}
+.lp-image-fallback{display:none!important}
+.lp-product-image.is-image-missing img{display:none!important}
+.lp-product-image.is-image-missing>.lp-image-fallback,.lp-product-image.is-image-missing .lp-image-fallback{display:flex!important;align-items:center!important;justify-content:center!important;min-height:170px!important;padding:18px!important;color:#7b848d!important;text-align:center!important;text-decoration:none!important}
+</style></head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
 <header class="site-header az-header" data-header="">

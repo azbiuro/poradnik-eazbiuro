@@ -55,6 +55,12 @@ body{background:#f3f5f8;color:var(--az-text)}
 .lp-product-image .lp-image-fallback{display:none;width:100%;height:100%;align-items:center;justify-content:center;text-align:center;padding:18px;color:#6b7787;background:#f7f9fb;font-size:14px;line-height:1.45;font-weight:700}
 .lp-product-image.is-image-missing img{display:none!important}
 .lp-product-image.is-image-missing .lp-image-fallback{display:flex}
+</style><style id="torun-local-normalization-fix">
+/* Normalizacja finalnego CTA i fallbacku obrazów – Toruń */
+.lp-final::after,.lp-final:after,.lp-final-cta::after,.lp-final-cta:after{content:attr(data-city)!important;right:-12px!important;bottom:-20px!important;font-size:76px!important;line-height:1!important;font-weight:950!important;color:rgba(205,0,0,.045)!important;pointer-events:none!important;white-space:nowrap!important}
+.lp-image-fallback{display:none!important}
+.lp-product-image.is-image-missing img{display:none!important}
+.lp-product-image.is-image-missing>.lp-image-fallback,.lp-product-image.is-image-missing .lp-image-fallback{display:flex!important;align-items:center!important;justify-content:center!important;min-height:170px!important;padding:18px!important;color:#7b848d!important;text-align:center!important;text-decoration:none!important}
 </style></head>
 <body>
 <a class="skip-link" href="#tresc">Przejdź do treści</a>
@@ -174,7 +180,7 @@ body{background:#f3f5f8;color:var(--az-text)}
 <details><summary>Kiedy wybrać etykiety poliestrowe lub polietylenowe?</summary><p>Wybierz taki materiał wtedy, gdy jest on wymagany dla Twojego zastosowania. Na stronie znajdują się warianty, których nazwy wprost wskazują poliester lub polietylen; pozostałe właściwości sprawdź przed zakupem.</p></details>
 <details><summary>Arkusz A4 czy etykiety w rolce — co wybrać?</summary><p>To zależy od sposobu drukowania i organizacji pracy. Jeśli korzystasz z arkuszy, porównaj formaty A4. Jeżeli pracujesz na drukarce obsługującej rolki, sprawdź warianty rolkowe i ich zgodność z urządzeniem.</p></details>
 <details><summary>Czy plomba zabezpieczająca zastępuje zwykłą trwałą etykietę?</summary><p>To inny typ produktu i nie warto wybierać go wyłącznie na podstawie podobnego formatu. Najpierw określ, czy potrzebujesz standardowego trwałego oznaczenia, czy rozwiązania zabezpieczającego przesyłkę lub opakowanie.</p></details></section>
-<section class="lp-final">
+<section class="lp-final" data-city="TORUŃ">
 <div><span class="lp-eyebrow">Przejdź do pełnej kategorii</span><h2>Porównaj etykiety wytrzymałe w sklepie A-Z Biuro</h2><p>Po wybraniu rodzaju i formatu przejdź do kategorii sklepowej, aby sprawdzić aktualne informacje przy konkretnych wariantach.</p></div>
 <a class="lp-btn lp-btn-primary" href="https://eazbiuro.pl/pl/list/biurowe/etykiety-i-znaki/etykiety-wytrzymale">Zobacz etykiety wytrzymałe</a></section>
 </div></main>
